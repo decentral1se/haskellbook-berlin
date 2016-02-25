@@ -23,6 +23,10 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
+    create ["CNAME"] $ do
+        route idRoute
+        compile $ makeItem ("hal2016.cs.kit.edu\n"::String)
+
 
     match "index.markdown" $ do
         route $ setExtension "html"
