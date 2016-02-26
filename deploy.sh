@@ -4,7 +4,7 @@
 # inspired by https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 # and http://ellismichael.com/technical/2015/06/12/using-travis-ci-with-github-pages/
 
-COMMIT_MESSAGE="Publishing site on $(date "+%Y-%m-%d %H:%M:%S") from $(git log -n 1 --format='commit %h - %s')" 
+COMMIT_MESSAGE="Publishing $(git log -n 1 --format='commit %h - %s')"
 
 # Prepare an empty directory
 cd _site
