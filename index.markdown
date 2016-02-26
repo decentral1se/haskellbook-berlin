@@ -29,3 +29,10 @@ Program committee
 -----------------
 
 TBA
+
+Contact
+-------
+
+Please direct your questions to [Joachim Breitner](breitner@kit.edu) (PC-Chair) or [Johannes Waldmann](http://www.imn.htwk-leipzig.de/~waldmann/) (Local organizer).
+
+Changes to this website can also be suggested by editing the [source file on github](https://github.com/nomeata/hal2016-website/edit/master/index.markdown) and creating a pull-request. The web page is generated using [hakyll](https://jaspervdj.be/hakyll/), the Haskell static site generator, and the deployment is [automated using Travis CI](https://github.com/nomeata/hal2016-website/blob/master/.travis.yml).
