@@ -29,7 +29,7 @@ before_install:
 install:
     - cabal-1.22 update
     - cabal-1.22 install Cabal
-    - cabal install -j1 --bindir=.
+    - cabal install -j1 --bindir=. --disable-tests
 
 
 script:
