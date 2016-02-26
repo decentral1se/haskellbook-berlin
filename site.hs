@@ -25,7 +25,7 @@ main = hakyll $ do
 
     create ["CNAME"] $ do
         route idRoute
-        compile $ makeItem ("hal2016.cs.kit.edu\n"::String)
+        compile $ makeItem ("hal2016.haskell.org\n"::String)
 
 
     match "index.markdown" $ do
