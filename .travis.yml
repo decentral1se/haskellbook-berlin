@@ -36,7 +36,6 @@ install:
 
 script:
     - cabal run rebuild
-    - cabal run deploy
 
 after_success:
     - '[ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_SECURE_ENV_VARS" = "true" ] &&  [ "$TRAVIS_PULL_REQUEST" = "false" ] && ./deploy.sh'
