@@ -48,7 +48,10 @@ Program committee
 
 * [Andreas Abel](http://www2.tcs.ifi.lmu.de/~abel/), Chalmers and Gothenburg University, Sweden
 * [Joachim Breitner](http://pp.ipd.kit.edu/~breitner/), Karlsruhe Institute of Technology, Germany (Chair)
-* [Wolfgang Jeltsch](https://wolfgang.jeltsch.info/), Tallinn University of Technology, Estonia
+* [Wolfgang Jeltsch](https://wolfgang.jeltsch.info/), Institute of Cybernetics
+at Tallinn University of Technology, Estonia
+* [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, Great Britain
+* [Peter Stadler](http://www.bioinf.uni-leipzig.de/~studla/), University of Leipzig, Germany
 
 Contact
 -------
