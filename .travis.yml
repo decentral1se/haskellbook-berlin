@@ -31,11 +31,12 @@ before_install:
 install:
     - cabal-1.22 update
     - cabal-1.22 install Cabal
-    - cabal run deploy
+    - cabal install --dependencies-only --disable-tests
 
 
 script:
-    - ./hal2016-website rebuild
+    - cabal run rebuild
+    - cabal run deploy
 
 after_success:
     - '[ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_SECURE_ENV_VARS" = "true" ] &&  [ "$TRAVIS_PULL_REQUEST" = "false" ] && ./deploy.sh'
