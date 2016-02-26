@@ -6,6 +6,7 @@ html {
 body {
     color: black;
     margin: 0px auto 0px auto;
+    padding: 1ex;
     max-width: 800px;
 }
 
@@ -14,8 +15,11 @@ body {
         display: block;
         width: 30%;
         float: right;
-        border: 2px solid grey;
-        margin-left: 1em;
+        border: 1px solid grey;
+	border-radius:5px;
+	padding: 0px;
+        margin-left: 2em;
+	margin-top: 1ex;
 	margin-bottom: 1ex;
     }
 }
@@ -80,6 +84,13 @@ div.info {
     color: #555;
     font-size: 14px;
     font-style: italic;
+}
+
+img.logo {
+    display: block;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1ex;
 }
 
 
