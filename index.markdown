@@ -19,6 +19,16 @@ Dates
  * 2016-07-15: Announcement of accepted papers *tentative*
  * 2016-09-12 - 2016-09-16: HaL 2016
 
+Call for paper
+--------------
+
+TBA. Contributions are to be submitted using [easychair](https://easychair.org/conferences/?conf=hal2016).
+
+Local information
+-----------------
+
+The workshop will take place at the [HTKW Leipzig](http://www.htwk-leipzig.de/), in the [Gutenberg-Bau](http://www.htwk-leipzig.de/de/hochschule/ueber-die-htwk-leipzig/gebaeudeuebersicht/gutenberg-bau/).
+
 Program
 -------
 
