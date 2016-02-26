@@ -9,40 +9,14 @@ body {
     max-width: 800px;
 }
 
-div#header {
-    border-bottom: 2px solid black;
-    margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
-}
-
-div#logo a {
-    color: black;
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-div#header #navigation {
-    text-align: right;
-}
-
-div#header #navigation a {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 12px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
 @media (min-width: 900px) {
     div#nav {
         display: block;
         width: 30%;
         float: right;
         border: 2px solid grey;
-        margin: 1em;
+        margin-left: 1em;
+	margin-bottom: 1ex;
     }
 }
 
