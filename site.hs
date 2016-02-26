@@ -9,8 +9,12 @@ import Text.Pandoc.Options
 
 siteTitle = "Haskell in Leipzip 2016"
 
+config = defaultConfiguration
+    { deployCommand = "./deploy.sh"
+    }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
