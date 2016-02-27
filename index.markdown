@@ -52,6 +52,7 @@ Program committee
 at Tallinn University of Technology, Estonia
 * [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, Great Britain
 * [Peter Stadler](http://www.bioinf.uni-leipzig.de/~studla/), University of Leipzig, Germany
+* [Henning Thielemann](http://www.henning-thielemann.de/), Freelancer, Germany
 
 Contact
 -------
