@@ -25,8 +25,8 @@ Dates
  * 2016-07-15: Announcement of accepted papers *tentative*
  * 2016-09-12 -- 2016-09-16: L-DEC, with HaL 2016
 
-Call for paper
---------------
+Call for papers
+---------------
 
 TBA. Contributions are to be submitted using [easychair](https://easychair.org/conferences/?conf=hal2016).
 
@@ -57,6 +57,7 @@ at Tallinn University of Technology, Estonia
 Contact
 -------
 
-Please direct your questions to [Joachim Breitner](mailto:breitner@kit.edu) (PC-Chair) or [Johannes Waldmann](http://www.imn.htwk-leipzig.de/~waldmann/) (Local organizer).
+ * [Joachim Breitner](mailto:breitner@kit.edu) (PC-Chair)
+ * [Johannes Waldmann](http://www.imn.htwk-leipzig.de/~waldmann/) (Local organizer).
 
 Changes to this website can also be suggested more easily by editing the [source file on github](https://github.com/nomeata/hal2016-website/edit/master/index.markdown) and creating a pull-request. The web page is generated using [hakyll](https://jaspervdj.be/hakyll/), the Haskell static site generator, and the deployment is [automated using Travis CI](https://github.com/nomeata/hal2016-website/blob/master/.travis.yml).
