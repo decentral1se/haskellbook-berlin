@@ -51,6 +51,7 @@ Program committee
 * [Joachim Breitner](http://pp.ipd.kit.edu/~breitner/), Karlsruhe Institute of Technology, Germany (Chair)
 * [Wolfgang Jeltsch](https://wolfgang.jeltsch.info/), Institute of Cybernetics
 at Tallinn University of Technology, Estonia
+* [Andres Löh](https://www.andres-loeh.de/), Well-Typed LLP, Germany
 * [Alejandro Serrano Mena](http://www.cs.uu.nl/staff/mena.html), Universiteit Utrecht, Netherlands
 * [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, Great Britain
 * [Peter Stadler](http://www.bioinf.uni-leipzig.de/~studla/), University of Leipzig, Germany
