@@ -47,9 +47,11 @@ Program committee
 (Currently under assembly)
 
 * [Andreas Abel](http://www2.tcs.ifi.lmu.de/~abel/), Chalmers and Gothenburg University, Sweden
+* [Heinrich Apfelmus](http://apfelmus.nfshost.com/), Germany
 * [Joachim Breitner](http://pp.ipd.kit.edu/~breitner/), Karlsruhe Institute of Technology, Germany (Chair)
 * [Wolfgang Jeltsch](https://wolfgang.jeltsch.info/), Institute of Cybernetics
 at Tallinn University of Technology, Estonia
+* [Alejandro Serrano Mena](http://www.cs.uu.nl/staff/mena.html), Universiteit Utrecht, Netherlands
 * [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, Great Britain
 * [Peter Stadler](http://www.bioinf.uni-leipzig.de/~studla/), University of Leipzig, Germany
 * [Henning Thielemann](http://www.henning-thielemann.de/), Freelancer, Germany
