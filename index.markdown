@@ -49,6 +49,7 @@ Program committee
 * [Andreas Abel](http://www2.tcs.ifi.lmu.de/~abel/), Chalmers and Gothenburg University, Sweden
 * [Heinrich Apfelmus](http://apfelmus.nfshost.com/), Leipzig, Germany
 * [Joachim Breitner](http://pp.ipd.kit.edu/~breitner/), Karlsruhe Institute of Technology, Germany (Chair)
+* [Petra Hofstedt](http://www.b-tu.de/fg-programmiersprachen-compilerbau/), BTU Cottbus-Senftenberg, Germany 
 * [Wolfgang Jeltsch](https://wolfgang.jeltsch.info/), Institute of Cybernetics
 at Tallinn University of Technology, Estonia
 * [Andres Löh](https://www.andres-loeh.de/), Well-Typed LLP, Germany
