@@ -47,7 +47,7 @@ Program committee
 (Currently under assembly)
 
 * [Andreas Abel](http://www2.tcs.ifi.lmu.de/~abel/), Chalmers and Gothenburg University, Sweden
-* [Heinrich Apfelmus](http://apfelmus.nfshost.com/), Germany
+* [Heinrich Apfelmus](http://apfelmus.nfshost.com/), Leipzig, Germany
 * [Joachim Breitner](http://pp.ipd.kit.edu/~breitner/), Karlsruhe Institute of Technology, Germany (Chair)
 * [Wolfgang Jeltsch](https://wolfgang.jeltsch.info/), Institute of Cybernetics
 at Tallinn University of Technology, Estonia
