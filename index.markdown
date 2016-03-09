@@ -55,6 +55,7 @@ at Tallinn University of Technology, Estonia
 * [Andres Löh](https://www.andres-loeh.de/), Well-Typed LLP, Germany
 * [Alejandro Serrano Mena](http://www.cs.uu.nl/staff/mena.html), Universiteit Utrecht, Netherlands
 * [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, Great Britain
+* [Katie Ots](http://www.codemiller.com/), Facebook, Great Britain
 * [Peter Stadler](http://www.bioinf.uni-leipzig.de/~studla/), University of Leipzig, Germany
 * [Henning Thielemann](http://www.henning-thielemann.de/), Freelancer, Germany
 * [Niki Vazou](http://goto.ucsd.edu/~nvazou/), University of California, San Diego, USA
