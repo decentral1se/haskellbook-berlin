@@ -86,12 +86,24 @@ div.info {
     font-style: italic;
 }
 
-img.logo {
-    display: block;
-    float: left;
-    margin-right: 2em;
-    margin-bottom: 1ex;
+@media (min-width: 400px) {
+	img.logo {
+	    display: block;
+	    float: left;
+	    margin-right: 2em;
+	    margin-bottom: 1ex;
+	}
 }
+@media (max-width: 399px) {
+	img.logo {
+	    display: block;
+	    float: none;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 1ex;
+	}
+}
+
 
 
 /* Font-Zeug */
