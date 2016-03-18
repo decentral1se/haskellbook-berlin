@@ -44,8 +44,6 @@ To be announced -- but it will be good!
 Program committee
 -----------------
 
-(Currently under assembly)
-
 * [Andreas Abel](http://www2.tcs.ifi.lmu.de/~abel/), Chalmers and Gothenburg University, Sweden
 * [Heinrich Apfelmus](http://apfelmus.nfshost.com/), Leipzig, Germany
 * [Joachim Breitner](http://pp.ipd.kit.edu/~breitner/), Karlsruhe Institute of Technology, Germany (Chair)
