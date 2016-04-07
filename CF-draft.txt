@@ -1,0 +1,72 @@
+Subject: Call for papers: Haskell in Leipzig
+
+
+                             Haskell in Leipzig
+                            September 14-15, 2016
+                            HTKW Leipzig, Germany
+                         http://hal2016.haskell.org/
+
+
+== About HaL ==
+
+The workshop series “Haskell in Leipzig”, now in its 11th year, brings together
+Haskell developers, Haskell users, Haskell researchers, Haskell enthusiasts and
+Haskell beginners to listen to talks, take part in tutorials and join in
+interesting conversations.
+
+Everything Haskellish is on topic, whether it is on current research, practical
+application of Haskell, interesting ideas off the beaten track, education,
+artistic uses, and may extend to functional programming and its connections
+into other paradigms as well.
+
+This year, HaL is colocated with two related conferences,
+ * the Workshop on Functional and (Constraint) Logic Programming (WFLP) and
+ * the Workshop on (Constraint) Logic Programming (WLP),
+to form the Leipzig Week of Declarative Programming (L-DEC):
+
+    http://nfa.imn.htwk-leipzig.de/LDEC2016/
+
+In order to accommodate this more international audience, this year’s HaL will
+be in English.
+
+== Submissions ==
+
+Contributions can take the form of
+
+ * talks (about 30 minutes),
+ * tutorials (about 30 minutes),
+ * demonstration, artistic performance, other crazy ideas.
+
+Please submit an abstract that describes the content and form of your
+presentation, the intended audience and required previous knowledge.
+We recommend a length of 2 pages, so that the PC and the audience gets a good
+idea of your submission, but this is not a hard requirement.
+
+Please submit your abstract, as an PDF document, at
+
+   https://easychair.org/conferences/?conf=hal2016
+
+until Friday, July 1, 2016. You will be notified by August 15th, 2016.
+
+== Invited Speaker ==
+
+TBD (may not happen in time for the first CFP).
+
+== Program committee ==
+
+ * Andreas Abel, Chalmers and Gothenburg University, Sweden
+ * Heinrich Apfelmus, Leipzig, Germany
+ * Joachim Breitner, Karlsruhe Institute of Technology, Germany (Chair)
+ * Petra Hofstedt, BTU Cottbus-Senftenberg, Germany
+ * Wolfgang Jeltsch, Institute of Cybernetics at Tallinn University of Technology, Estonia
+ * Andres Löh, Well-Typed LLP, Germany
+ * Alejandro Serrano Mena, Universiteit Utrecht, Netherlands
+ * Neil Mitchell, Standard Chartered Bank, Great Britain
+ * Katie Ots, Facebook, Great Britain
+ * Peter Stadler, University of Leipzig, Germany
+ * Henning Thielemann, Freelancer, Germany
+ * Niki Vazou, University of California, San Diego, USA
+
+
+If you have any questions, please don’t hesitate to contact
+Joachim Breitner <breitner@kit.edu>.
