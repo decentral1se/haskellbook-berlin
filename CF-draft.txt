@@ -58,7 +58,7 @@ TBD (may not happen in time for the first CFP).
  * Joachim Breitner, Karlsruhe Institute of Technology, Germany (Chair)
  * Petra Hofstedt, BTU Cottbus-Senftenberg, Germany
  * Wolfgang Jeltsch, Institute of Cybernetics at Tallinn University of Technology, Estonia
- * Andres Löh, Well-Typed LLC, Germany
+ * Andres Löh, Well-Typed LLP, Germany
  * Alejandro Serrano Mena, Universiteit Utrecht, Netherlands
  * Neil Mitchell, Standard Chartered Bank, UK
  * Katie Ots, Facebook, UK
