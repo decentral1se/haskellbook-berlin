@@ -8,7 +8,7 @@ About HaL
 ![Haskell logo](images/logo.png){.logo}
 [Haskell](http://haskell.org/) is a modern functional programming language that allows rapid development of robust and correct software. It is reknown for its expressive type system, and unique approaches to concurrency and parallelism. Haskell is both the playing field of cutting edge programming language research and a reliable base for commercial software development.
 
-The workshop series “[**Haskell in Leipzig**](http://nfa.imn.htwk-leipzig.de/HAL2015/)”, now in its 11th year, brings together Haskell developers, Haskell users, Haskell researchers, Haskell enthusiasts and Haskell beginners to listen to talks, take part in tutorials and join in interesting conversations. 
+The workshop series “[**Haskell in Leipzig**](http://nfa.imn.htwk-leipzig.de/HAL2015/)”, now in its 11th year, brings together Haskell developers, Haskell researchers, Haskell enthusiasts and Haskell beginners to listen to talks, take part in tutorials, and join in interesting conversations.
 
 This year, HaL is colocated with two related conferences,
 
@@ -52,8 +52,8 @@ Program committee
 at Tallinn University of Technology, Estonia
 * [Andres Löh](https://www.andres-loeh.de/), Well-Typed LLP, Germany
 * [Alejandro Serrano Mena](http://www.cs.uu.nl/staff/mena.html), Universiteit Utrecht, Netherlands
-* [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, Great Britain
-* [Katie Ots](http://www.codemiller.com/), Facebook, Great Britain
+* [Neil Mitchell](http://ndmitchell.com/), Standard Chartered Bank, UK
+* [Katie Ots](http://www.codemiller.com/), Facebook, UK
 * [Peter Stadler](http://www.bioinf.uni-leipzig.de/~studla/), University of Leipzig, Germany
 * [Henning Thielemann](http://www.henning-thielemann.de/), Freelancer, Germany
 * [Niki Vazou](http://goto.ucsd.edu/~nvazou/), University of California, San Diego, USA
