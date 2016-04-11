@@ -15,9 +15,9 @@ Haskell beginners to listen to talks, take part in tutorials and join in
 interesting conversations.
 
 Everything Haskellish is on topic, whether it is on current research, practical
-application of Haskell, interesting ideas off the beaten track, education,
-artistic uses, and may extend to functional programming and its connections
-into other paradigms as well.
+application of Haskell, interesting ideas off the beaten track, education, art,
+and may extend to functional programming and its connections into other
+paradigms as well.
 
 This year, HaL is colocated with two related conferences,
  * the Workshop on Functional and (Constraint) Logic Programming (WFLP) and
@@ -26,23 +26,23 @@ to form the Leipzig Week of Declarative Programming (L-DEC):
 
     http://nfa.imn.htwk-leipzig.de/LDEC2016/
 
-In order to accommodate this more international audience, this year’s HaL will
-be in English.
+In order to accommodate and welcome a more international audience, this year’s
+HaL will held be in English.
 
 == Submissions ==
 
 Contributions can take the form of
 
  * talks (about 30 minutes),
- * tutorials (about 30 minutes),
- * demonstration, artistic performance, other crazy ideas.
+ * tutorials (about 90 minutes),
+ * demonstration, artistic performance, other crazy thing.
 
 Please submit an abstract that describes the content and form of your
 presentation, the intended audience and required previous knowledge.
 We recommend a length of 2 pages, so that the PC and the audience gets a good
 idea of your submission, but this is not a hard requirement.
 
-Please submit your abstract, as an PDF document, at
+You can submit your abstract, as an PDF document, at
 
    https://easychair.org/conferences/?conf=hal2016
 
