@@ -10,14 +10,14 @@ Subject: Call for papers: Haskell in Leipzig
 == About HaL ==
 
 The workshop series “Haskell in Leipzig”, now in its 11th year, brings together
-Haskell developers, Haskell users, Haskell researchers, Haskell enthusiasts and
-Haskell beginners to listen to talks, take part in tutorials and join in
-interesting conversations.
+Haskell developers, Haskell researchers, Haskell enthusiasts and Haskell
+beginners to listen to talks, take part in tutorials, and join in interesting
+conversations.
 
-Everything Haskellish is on topic, whether it is on current research, practical
-application of Haskell, interesting ideas off the beaten track, education, art,
-and may extend to functional programming and its connections into other
-paradigms as well.
+Everything related to Haskell is on topic, whether it is about current research,
+practical applications, interesting ideas off the beaten track, education, or
+art, and topics may extend to functional programming in general and its
+connections to other programming paradigms as well.
 
 This year, HaL is colocated with two related conferences,
  * the Workshop on Functional and (Constraint) Logic Programming (WFLP) and
@@ -27,26 +27,25 @@ to form the Leipzig Week of Declarative Programming (L-DEC):
     http://nfa.imn.htwk-leipzig.de/LDEC2016/
 
 In order to accommodate and welcome a more international audience, this year’s
-HaL will held be in English.
+HaL will be held in English.
 
 == Submissions ==
 
 Contributions can take the form of
-
  * talks (about 30 minutes),
  * tutorials (about 90 minutes),
- * demonstration, artistic performance, other crazy thing.
+ * demonstrations, artistic performances, or other extraordinary things.
 
 Please submit an abstract that describes the content and form of your
-presentation, the intended audience and required previous knowledge.
-We recommend a length of 2 pages, so that the PC and the audience gets a good
+presentation, the intended audience, and required previous knowledge.
+We recommend a length of 2 pages, so that the PC and the audience get a good
 idea of your submission, but this is not a hard requirement.
 
 You can submit your abstract, as an PDF document, at
 
    https://easychair.org/conferences/?conf=hal2016
 
-until Friday, July 1, 2016. You will be notified by August 15th, 2016.
+until Friday, July 1, 2016. You will be notified by August 15, 2016.
 
 == Invited Speaker ==
 
@@ -59,14 +58,13 @@ TBD (may not happen in time for the first CFP).
  * Joachim Breitner, Karlsruhe Institute of Technology, Germany (Chair)
  * Petra Hofstedt, BTU Cottbus-Senftenberg, Germany
  * Wolfgang Jeltsch, Institute of Cybernetics at Tallinn University of Technology, Estonia
- * Andres Löh, Well-Typed LLP, Germany
+ * Andres Löh, Well-Typed LLC, Germany
  * Alejandro Serrano Mena, Universiteit Utrecht, Netherlands
- * Neil Mitchell, Standard Chartered Bank, Great Britain
- * Katie Ots, Facebook, Great Britain
+ * Neil Mitchell, Standard Chartered Bank, UK
+ * Katie Ots, Facebook, UK
  * Peter Stadler, University of Leipzig, Germany
  * Henning Thielemann, Freelancer, Germany
  * Niki Vazou, University of California, San Diego, USA
-
 
 If you have any questions, please don’t hesitate to contact
 Joachim Breitner <breitner@kit.edu>.
