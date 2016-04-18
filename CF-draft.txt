@@ -56,6 +56,7 @@ TBD (may not happen in time for the first CFP).
  * Andreas Abel, Chalmers and Gothenburg University, Sweden
  * Heinrich Apfelmus, Leipzig, Germany
  * Joachim Breitner, Karlsruhe Institute of Technology, Germany (Chair)
+ * Matthias Fischmann, Zerobuzz, Germany
  * Petra Hofstedt, BTU Cottbus-Senftenberg, Germany
  * Wolfgang Jeltsch, Institute of Cybernetics at Tallinn University of Technology, Estonia
  * Andres Löh, Well-Typed LLP, Germany
