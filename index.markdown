@@ -12,8 +12,8 @@ The workshop series “[**Haskell in Leipzig**](http://nfa.imn.htwk-leipzig.de/H
 
 This year, HaL is colocated with two related conferences,
 
- * the [Workshop on Functional and (Constraint) Logic Programming]() (WFLP) and
- * the [Workshop on (Constraint) Logic Programming]() (WLP),
+ * the [Workshop on Functional and (Constraint) Logic Programming](http://www.imn.htwk-leipzig.de/WFLP2016/) (WFLP) and
+ * the [Workshop on (Constraint) Logic Programming](http://nfa.imn.htwk-leipzig.de/WLP2016/) (WLP),
 
 to form the [Leipzig Week of Declarative Programming](http://nfa.imn.htwk-leipzig.de/LDEC2016/) (L-DEC). In order to accommodate this more international audience, this year’s HaL will be in English.
 
@@ -23,7 +23,8 @@ Dates
  * 2016-04-15: Call for paper *tentative*
  * 2016-07-01: Submission deadline *tentative*
  * 2016-07-15: Announcement of accepted papers *tentative*
- * 2016-09-12 -- 2016-09-16: L-DEC, with HaL 2016
+ * 2016-09-12 -- 2016-09-16: L-DEC
+ * 2016-09-14 -- 2016-09-16: HaL 2016
 
 Call for papers
 ---------------
