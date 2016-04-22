@@ -17,6 +17,11 @@ This year, HaL is colocated with two related conferences,
 
 to form the [Leipzig Week of Declarative Programming](http://nfa.imn.htwk-leipzig.de/LDEC2016/) (L-DEC). In order to accommodate this more international audience, this year’s HaL will be in English.
 
+Invited Speaker
+---------------
+
+We are happy to announce that [**Alejandro Russo**](http://www.cse.chalmers.se/~russo/) from Chalmers and Gothenburg University will present his work on information-flow control in Haskell (i.e., SecLib, LIO, MAC, HLIO).
+
 Dates
 -----
 

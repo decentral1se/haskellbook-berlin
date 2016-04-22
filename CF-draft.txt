@@ -29,6 +29,12 @@ to form the Leipzig Week of Declarative Programming (L-DEC):
 In order to accommodate and welcome a more international audience, this year’s
 HaL will be held in English.
 
+== Invited Speaker ==
+
+We are happy to announce that Alejandro Russo from Chalmers and Gothenburg
+University will present his work on information-flow control in Haskell
+(i.e., SecLib, LIO, MAC, HLIO).
+
 == Submissions ==
 
 Contributions can take the form of
