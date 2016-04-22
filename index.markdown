@@ -20,16 +20,31 @@ to form the [Leipzig Week of Declarative Programming](http://nfa.imn.htwk-leipzi
 Dates
 -----
 
- * 2016-04-15: Call for paper *tentative*
- * 2016-07-01: Submission deadline *tentative*
- * 2016-07-15: Announcement of accepted papers *tentative*
+ * 2016-04-22: Call for paper
+ * 2016-07-01: Submission deadline
+ * 2016-07-15: Announcement of accepted papers
  * 2016-09-12 -- 2016-09-16: L-DEC
  * 2016-09-14 -- 2016-09-16: HaL 2016
 
 Call for papers
 ---------------
 
-TBA. Contributions are to be submitted using [easychair](https://easychair.org/conferences/?conf=hal2016).
+Contributions can take the form of
+
+ * talks (about 30 minutes),
+ * tutorials (about 90 minutes),
+ * demonstrations, artistic performances, or other extraordinary things.
+
+Please submit an abstract that describes the content and form of your
+presentation, the intended audience, and required previous knowledge.
+We recommend a length of 2 pages, so that the PC and the audience get a good
+idea of your submission, but this is not a hard requirement.
+
+You can submit your abstract, as an PDF document, at
+
+   <https://easychair.org/conferences/?conf=hal2016>
+
+until Friday, July 1, 2016. You will be notified by July 15, 2016.
 
 Local information
 -----------------
