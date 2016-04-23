@@ -25,7 +25,7 @@ We are happy to announce that [**Alejandro Russo**](http://www.cse.chalmers.se/~
 Dates
 -----
 
- * 2016-04-22: Call for paper
+ * 2016-04-22: Call for papers
  * 2016-07-01: Submission deadline
  * 2016-07-15: Announcement of accepted papers
  * 2016-09-12 -- 2016-09-16: L-DEC
@@ -45,7 +45,7 @@ presentation, the intended audience, and required previous knowledge.
 We recommend a length of 2 pages, so that the PC and the audience get a good
 idea of your submission, but this is not a hard requirement.
 
-You can submit your abstract, as an PDF document, at
+You can submit your abstract, as a PDF document, at
 
    <https://easychair.org/conferences/?conf=hal2016>
 
