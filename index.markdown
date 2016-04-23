@@ -45,7 +45,7 @@ presentation, the intended audience, and required previous knowledge.
 We recommend a length of 2 pages, so that the PC and the audience get a good
 idea of your submission, but this is not a hard requirement.
 
-You can submit your abstract, as an PDF document, at
+You can submit your abstract, as a PDF document, at
 
    <https://easychair.org/conferences/?conf=hal2016>
 
