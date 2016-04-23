@@ -25,7 +25,7 @@ We are happy to announce that [**Alejandro Russo**](http://www.cse.chalmers.se/~
 Dates
 -----
 
- * 2016-04-22: Call for paper
+ * 2016-04-22: Call for papers
  * 2016-07-01: Submission deadline
  * 2016-07-15: Announcement of accepted papers
  * 2016-09-12 -- 2016-09-16: L-DEC
