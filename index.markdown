@@ -49,7 +49,7 @@ You can submit your abstract, as a PDF document, at
 
    <https://easychair.org/conferences/?conf=hal2016>
 
-until Friday, July 1, 2016. You will be notified by July 15, 2016.
+until Friday, July 1, 2016, anywhere on earth. You will be notified by July 15, 2016.
 
 Local information
 -----------------
