@@ -26,8 +26,8 @@ Dates
 -----
 
  * 2016-04-22: Call for papers
- * 2016-07-01: Submission deadline
- * 2016-07-15: Announcement of accepted papers
+ * 2016-07-15: **extended** Submission deadline
+ * 2016-07-30: Announcement of accepted papers
  * 2016-09-12 -- 2016-09-15: L-DEC
  * 2016-09-14 -- 2016-09-15: HaL 2016
 
