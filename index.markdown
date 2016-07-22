@@ -17,49 +17,74 @@ This year, HaL is colocated with two related conferences,
 
 to form the [Leipzig Week of Declarative Programming](http://nfa.imn.htwk-leipzig.de/LDEC2016/) (L-DEC). In order to accommodate this more international audience, this year’s HaL will be in English.
 
-Invited Speaker
----------------
-
-We are happy to announce that [**Alejandro Russo**](http://www.cse.chalmers.se/~russo/) from Chalmers and Gothenburg University will present his work on information-flow control in Haskell (i.e., SecLib, LIO, MAC, HLIO).
-
 Dates
 -----
 
- * 2016-04-22: Call for papers
- * 2016-07-15: **extended** Submission deadline
- * 2016-07-30: Announcement of accepted papers
+ * ~~2016-04-22: Call for papers~~
+ * ~~2016-07-15: **extended** Submission deadline~~
+ * ~~2016-07-22: Announcement of accepted submissions~~
  * 2016-09-12 -- 2016-09-15: L-DEC
  * 2016-09-14 -- 2016-09-15: HaL 2016
 
-Call for papers
----------------
 
-Contributions can take the form of
+Program
+-------
 
- * talks (about 30 minutes),
- * tutorials (about 90 minutes),
- * demonstrations, artistic performances, or other extraordinary things.
+We are happy to announce that we have accepted 11 talks and 3 tutorials.
 
-Please submit an abstract that describes the content and form of your
-presentation, the intended audience, and required previous knowledge.
-We recommend a length of 2 pages, so that the PC and the audience get a good
-idea of your submission, but this is not a hard requirement.
+### Invited Speaker
 
-You can submit your abstract, as a PDF document, at
+We are happy to announce that [**Alejandro Russo**](http://www.cse.chalmers.se/~russo/) from Chalmers and Gothenburg University will present his work on information-flow control in Haskell (i.e., SecLib, LIO, MAC, HLIO).
 
-   <https://easychair.org/conferences/?conf=hal2016>
 
-until Friday, July 1, 2016, anywhere on earth. You will be notified by July 15, 2016.
+### Talks
+
+* *[Johannes Waldmann]:*<br/>
+  **Automated Performance Measurements**
+* *Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]:*<br/>
+  **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
+* *Peter Althainz:*<br/>
+  **HGamer3D - a toolset for developing games with Haskell**
+* *Viktor Winschel:*<br/>
+  **Management at Algorithmic Financial Markets**
+* *Matthias Fischmann and Andor Penzes:*<br/>
+  **Project report: building a web-application with servant, lucid, and digestive-functors**
+* *[Lars Brünjes]:*<br/>
+  **Dependently Typed Heaps**
+* *Balazs Komuves:*<br/>
+  **Random access lists, nested data types and numeral systems**
+* *Sebastian Graf:*<br/>
+  **Plugin Architectures in Haskell**
+* *Philipp Kant:* <br/>
+  **Store: An Efficient Binary Serialization Library**
+* *[Anton Kholomiov]:* <br/>
+  **Csound-expression Haskell framework for computer music**
+* *Andor Penzes:* <br/>
+  **Simple blog engine with shape functors and generic eliminators for ADTs**
+
+[Johannes Waldmann]: http://www.imn.htwk-leipzig.de/~waldmann/
+[Peter F. Stadler]: http://www.bioinf.uni-leipzig.de/
+[Christian Hoener Zu Siederdissen]: http://www.bioinf.uni-leipzig.de/~choener/index.html
+[Lars Brünjes]:  https://github.com/brunjlar
+[Anton Kholomiov]: https://github.com/anton-k
+
+### Tutorials
+
+* *Henning Thielemann:*<br/>
+  **Efficient signal processing using Haskell and LLVM**
+* *[Anton Kholomiov]:* <br/>
+  **Workshop: creating computer music with Haskell**
+* *Philipp Schuster:* <br/>
+  **Ten example uses of monads**
+
+The schedule will be finalized and announced at some later time.
+
 
 Local information
 -----------------
 
 The workshop will take place at the [HTKW Leipzig](http://www.htwk-leipzig.de/), in the [Gutenberg-Bau](http://www.htwk-leipzig.de/de/hochschule/ueber-die-htwk-leipzig/gebaeudeuebersicht/gutenberg-bau/).
 
-Program
--------
-
-To be announced -- but it will be good!
 
 
 Program committee
@@ -87,3 +112,24 @@ Contact
  * [Johannes Waldmann](http://www.imn.htwk-leipzig.de/~waldmann/) (Local organizer).
 
 Changes to this website can also be suggested more easily by editing the [source file on github](https://github.com/nomeata/hal2016-website/edit/master/index.markdown) and creating a pull-request. The web page is generated using [hakyll](https://jaspervdj.be/hakyll/), the Haskell static site generator, and the deployment is [automated using Travis CI](https://github.com/nomeata/hal2016-website/blob/master/.travis.yml).
+
+~~Call for papers~~
+-------------------
+
+Contributions can take the form of
+
+ * talks (about 30 minutes),
+ * tutorials (about 90 minutes),
+ * demonstrations, artistic performances, or other extraordinary things.
+
+Please submit an abstract that describes the content and form of your
+presentation, the intended audience, and required previous knowledge.
+We recommend a length of 2 pages, so that the PC and the audience get a good
+idea of your submission, but this is not a hard requirement.
+
+You can submit your abstract, as a PDF document, at
+
+   <https://easychair.org/conferences/?conf=hal2016>
+
+until Friday, July 1, 2016, anywhere on earth. You will be notified by July 15, 2016.
+
