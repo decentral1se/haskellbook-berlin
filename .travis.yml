@@ -19,8 +19,8 @@ cache:
   - $HOME/.cabal/lib
 
 before_install:
-    - test -n "$encrypted_4d415b5e837a_key" && openssl aes-256-cbc -K $encrypted_4d415b5e837a_key -iv $encrypted_4d415b5e837a_iv -in travis-deploy-key.enc -out ~/.ssh/id_rsa -d
-    - test -e ~/.ssh/id_rsa && chmod go-rwx ~/.ssh/id_rsa
+    - if [ -n "$encrypted_4d415b5e837a_key" ]; then openssl aes-256-cbc -K $encrypted_4d415b5e837a_key -iv $encrypted_4d415b5e837a_iv -in travis-deploy-key.enc -out ~/.ssh/id_rsa -d; fi
+    - if [ -e ~/.ssh/id_rsa ]; then chmod go-rwx ~/.ssh/id_rsa; fi
     - export PATH=$HOME/.cabal/bin:$PATH
     - export PATH=/opt/cabal/1.22/bin:$PATH
     - export PATH=/opt/alex/3.1.4/bin:$PATH
@@ -38,7 +38,7 @@ script:
     - cabal run rebuild
 
 after_success:
-    - '[ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_SECURE_ENV_VARS" = "true" ] &&  [ "$TRAVIS_PULL_REQUEST" = "false" ] && ./deploy.sh'
+    - 'if [ "$TRAVIS_BRANCH" = "master" ] && [ "$TRAVIS_SECURE_ENV_VARS" = "true" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then  ./deploy.sh; fi'
 
 before_cache:
   - du -sh  $HOME/.ghc $HOME/.cabal/bin $HOME/.cabal/lib $HOME/.cabal/share
