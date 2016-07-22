@@ -11,6 +11,6 @@ request.
 
 How much more convenient for everyone than sending around mails!
 
-Contact Joachim Breitner <breitner@kit.edu> in case of questions.
+Contact Joachim Breitner <<breitner@kit.edu>> in case of questions.
 
 [edit]: https://github.com/nomeata/hal2016-website/edit/master/index.markdown
