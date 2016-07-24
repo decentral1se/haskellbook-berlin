@@ -55,5 +55,14 @@ main = hakyllWith config $ do
                                           , writerStandalone = True
                                           }
 
+    match "program.markdown" $ do
+        route $ setExtension "html"
+        compile $
+            pandocCompiler
+                >>= applyAsTemplate defaultContext
+                >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= relativizeUrls
+
+
     match "templates/*" $
         compile templateCompiler

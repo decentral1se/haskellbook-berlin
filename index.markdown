@@ -30,11 +30,12 @@ Dates
 Program
 -------
 
-We are happy to announce that we have accepted 11 talks and 3 tutorials.
+We are happy to announce that we have accepted 11 talks and 3 tutorials. See below for a concise list or the [full program](program.html) for the list including abstracts.
 
 ### Invited Speaker
 
-We are happy to announce that [**Alejandro Russo**](http://www.cse.chalmers.se/~russo/) from Chalmers and Gothenburg University will present his work on information-flow control in Haskell (i.e., SecLib, LIO, MAC, HLIO).
+* [*Alejandro Russo*](http://www.cse.chalmers.se/~russo/)<br/>
+   **Preserving Privacy with Monads** <small>[abstract](program.html#russo)</small>
 
 
 ### Talks
