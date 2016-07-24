@@ -8,7 +8,7 @@ Invited talk
 
 ### Preserving Privacy with Monads ## {#russo}
 
-*by [Alexandro Russo](http://www.cse.chalmers.se/~russo/)*
+*by [Alejandro Russo]*
 
 In a all-connected society, users consciously (or unconsciously) value their
 privacy. Even skeptical people will recognize its importance; if they do not,
@@ -40,15 +40,17 @@ form of an execution monitor), statically (by leveraging Haskell's type-system),
 and as a combination of both.
 
 
-**Short bio**: [Alejandro Russo](http://www.cse.chalmers.se/~russo/) is an
-associate professor at Chalmers University of Technology working on the
-intersection of functional languages, security, and systems. He is the recipient
-of a Google Research Awards and several grants from the Swedish research
-agencies Vetenskapsrådet, STINT, and Barbro Osher foundation. Internationally,
-Prof. Russo worked on prestigious research institutions like Stanford
-University, where he was appointed visiting associate professor. His research
-ranges from foundational aspects of security to developing tools to secure
-software written in Haskell, Python, and JavaScript.
+**Short bio**: [Alejandro Russo] is an associate professor at Chalmers
+University of Technology working on the intersection of functional languages,
+security, and systems. He is the recipient of a Google Research Awards and
+several grants from the Swedish research agencies Vetenskapsrådet, STINT, and
+Barbro Osher foundation. Internationally, Prof. Russo worked on prestigious
+research institutions like Stanford University, where he was appointed visiting
+associate professor. His research ranges from foundational aspects of security
+to developing tools to secure software written in Haskell, Python, and
+JavaScript.
+
+[Alejandro Russo](http://www.cse.chalmers.se/~russo/) 
 
 ## Contributed Talks
 
