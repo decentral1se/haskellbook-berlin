@@ -8,7 +8,7 @@ Invited talk
 
 ### Preserving Privacy with Monads ## {#russo}
 
-*by [Alejandro Russo]*
+*by [Alejandro Russo](http://www.cse.chalmers.se/~russo/)*
 
 In a all-connected society, users consciously (or unconsciously) value their
 privacy. Even skeptical people will recognize its importance; if they do not,
@@ -50,7 +50,7 @@ associate professor. His research ranges from foundational aspects of security
 to developing tools to secure software written in Haskell, Python, and
 JavaScript.
 
-[Alejandro Russo](http://www.cse.chalmers.se/~russo/) 
+[Alejandro Russo](http://www.cse.chalmers.se/~russo/)
 
 ## Contributed Talks
 
