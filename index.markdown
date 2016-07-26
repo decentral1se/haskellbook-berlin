@@ -23,6 +23,7 @@ Dates
  * ~~2016-04-22: Call for papers~~
  * ~~2016-07-15: **extended** Submission deadline~~
  * ~~2016-07-22: Announcement of accepted submissions~~
+ * soonish: Reigstration opens
  * 2016-09-12 -- 2016-09-15: L-DEC
  * 2016-09-14 -- 2016-09-15: HaL 2016
 
@@ -83,6 +84,8 @@ The schedule will be finalized and announced at some later time.
 
 Local information
 -----------------
+
+Registration for HAL and the rest of [L-DEC](http://nfa.imn.htwk-leipzig.de/LDEC2016/) will open shortly. Please stay tuned.
 
 The workshop will take place at the [HTKW Leipzig](http://www.htwk-leipzig.de/), in the [Gutenberg-Bau](http://www.htwk-leipzig.de/de/hochschule/ueber-die-htwk-leipzig/gebaeudeuebersicht/gutenberg-bau/).
 
