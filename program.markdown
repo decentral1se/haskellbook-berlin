@@ -94,7 +94,7 @@ JavaScript.
 ## Tutorials
 
 ### Efficient signal processing using Haskell and LLVM {#thielemann}
-*by Henning Thielemann*
+*by [Henning Thielemann]*
 
 ### Workshop: creating computer music with Haskell {#kholomiov-tutorial}
 *by [Anton Kholomiov]*
@@ -110,4 +110,5 @@ JavaScript.
 [Christian Hoener Zu Siederdissen]: http://www.bioinf.uni-leipzig.de/~choener/index.html
 [Lars Brünjes]:  https://github.com/brunjlar
 [Anton Kholomiov]: https://github.com/anton-k
+[Henning Thielemann]: http://dr.henning-thielemann.de/
 
