@@ -35,12 +35,24 @@ We are happy to announce that we have accepted 11 talks and 3 tutorials. See bel
 
 ### Invited Speaker
 
-* [*Alejandro Russo*](http://www.cse.chalmers.se/~russo/)<br/>
-   **Preserving Privacy with Monads** <small>[abstract](program.html#russo)</small>
+**Preserving Privacy with Monads**
+<small>[abstract](program.html#russo)</small><br/>
+*by [Alejandro Russo](http://www.cse.chalmers.se/~russo/)*
 
 ### Invited Musical Performance
 
-* by *[Anton Kholomiov]*
+*by [Anton Kholomiov]*
+
+The Haskell is going to be used on stage! The music is the wild mix of Indian
+ragas with IDM and glitch.  The mellow Bansuri improvisations are going to be
+accompanied with Haskell-based synthesizers and playback of ambient and glitchy
+loops created with Haskell.  The key aspect of Indian music is to immerse the
+listener into a single emotion.  The synthesizers are used to frame the
+Hindustani tradition in modern setting and make it accessible for contemporary
+listeners.
+
+You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/> and <https://soundcloud.com/kailash-project>.
+
 
 ### Talks
 
@@ -64,6 +76,7 @@ We are happy to announce that we have accepted 11 talks and 3 tutorials. See bel
   **Store: An Efficient Binary Serialization Library**
 * *[Anton Kholomiov]:* <br/>
   **Csound-expression Haskell framework for computer music**
+  <small>[abstract](program.html#kholomiov-talk)</small>
 * *Andor Penzes:* <br/>
   **Simple blog engine with shape functors and generic eliminators for ADTs**
 
@@ -76,9 +89,11 @@ We are happy to announce that we have accepted 11 talks and 3 tutorials. See bel
 ### Tutorials
 
 * *Henning Thielemann:*<br/>
-  **Efficient signal processing using Haskell and LLVM** <small>[abstract](program.html#thielemann)</small>
+  **Efficient signal processing using Haskell and LLVM**
+  <small>[abstract](program.html#thielemann)</small>
 * *[Anton Kholomiov]:* <br/>
   **Workshop: creating computer music with Haskell**
+  <small>[abstract](program.html#kholomiov-tutorial)</small>
 * *Philipp Schuster:* <br/>
   **Ten example uses of monads**
 

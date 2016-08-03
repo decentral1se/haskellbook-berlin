@@ -164,9 +164,23 @@ binary number system.
 *by Philipp Kant*
 
 ### Csound-expression Haskell framework for computer music {#kholomiov-talk}
-*by Anton Kholomiov*
+*by Anton Kholomiov* (also see the corresponding [tutorial](#kholomiov-tutorial).)
 
-(Note the corresponding [tutorial](#kholomiov-tutorial).)
+The paper presents modern Haskell framework for creation of computer music.
+It's called [csound-expression](http://github.com/spell-music/csound-expression/).  It's
+EDSL for Csound audio programming language. The functional programming paradigm
+can greatly enhance the process of text-based music production. We are going to
+look at functional model for computer music.  It combines many aspects of
+computer music. With the library we can create instruments from scratch apply
+instruments to scores, trigger them with streams of events. We can create UIs
+to control our music.
+
+The key guiding principle of API design is modularity. Creation of
+self-contained musical objects that can provide building blocks for the tower
+of abstractions. The library is designed in such a way that every concept is
+self contained and the whole program can be built from expressions. This
+feature allows us to construct music in the interactive style. We can create
+music in the REPL.
 
 ### Simple blog engine with shape functors and generic eliminators for ADTs {#penez}
 *by Andor Penzes*
@@ -249,9 +263,55 @@ References:
 
 
 ### Workshop: creating computer music with Haskell {#kholomiov-tutorial}
-*by [Anton Kholomiov]*
+*by [Anton Kholomiov]* (also see the corresponding [talk](#kholomiov-talk).)
 
-(Note the corresponding [talk](#kholomiov-talk).)
+At the Workshop we are going to learn to create computer music with Haskell. 
+We are going to produce buzzes and blips right in the REPL. Right in the ghci
+you can create a midi-based instrument and complement it with drums and harmony
+from your favorite library of samples or create the melody from scratch with scores
+or event streams. Also we are going to learn how to create the UI-controllers on the 
+fly with applicative style programming.
+
+At the end of the workshop you should become en-armed with set of pro-quality synthesizers,
+tools to create sample based music, trigger them the music in real time. We should discuss
+some features unique to text-based programming. Have a glimpse at techniques used in musical generative art.
+
+We are going to use the library
+[csound-expression](http://github.com/spell-music/csound-expression/). It's a Haskell framework for sound design and music composition. It embeds very
+powerful audio programming language Csound into Haskell. It's a Csound code generator.
+The [Csound](http://csound.github.io/) is 30 years old audio programming language that embodies the wisdom of many researchers.
+It has active community and it continues to evolve. It has the wide set of features (subtractive, granular,
+waveguide, sample-based synthesis, physical modeling, spectral processing, emulators for many analog
+synthesizer components)
+
+The Haskell library complements the Csound with expressive language. We can use the great low-level
+audio units of Csound and scheduler with higher level features of Haskell like higher order functions, rich
+data type system, body of libraries for advanced data types.
+
+Prerequisites:
+
+To follow along you need to install several things:
+
+* [csound-expression](http://hackage.haskell.org/package/csound-expression). It's a main library (available on hackage).
+* [Csound compiler](http://csound.github.io/). The thing that converts code to audio (available on official site works on all platforms).
+* other goodies based on core library: [csound-catalog](http://hackage.haskell.org/package/csound-catalog) and [csound-sampler](http://hackage.haskell.org/package/csound-sampler).
+    They contain ready to use high quality patches (available on Hackage) and tiny DSL to compose music with audio-clips.
+* the archive with audio files (drum loops and pads) that we are going to use. I'll publish it when closer to the date.
+
+When everything installed check that it works. Open ghci import the module `Csound.Base` and type:
+
+~~~
+> dac (testDrone3 220)
+~~~
+
+Hit Ctrl+C to stop the playback. The library has minimal Haskell dependencies and should be easy to install. If something will go wrong with installation 
+drop me a line on github or on the email that you can find on Hackage page of the project.
+
+The library is really huge though the core is very simple and minimal. So I
+recommend to read/skim through the [user guide of the
+library](https://github.com/spell-music/csound-expression/blob/master/tutorial/Index.md).
+That way you can get more out of the workshop.
+
 
 ### Ten example uses of monads {#schuster}
 *by Philipp Schuster*
