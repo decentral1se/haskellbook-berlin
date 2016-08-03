@@ -57,7 +57,7 @@ We are happy to announce that we have accepted 11 talks and 3 tutorials. See bel
 * *[Lars Brünjes]:*<br/>
   **Dependently Typed Heaps**
 * *Balazs Komuves:*<br/>
-  **Random access lists, nested data types and numeral systems**
+  **Random access lists, nested data types and numeral systems** <small>[abstract](program.html#komuves)</small>
 * *Sebastian Graf:*<br/>
   **Plugin Architectures in Haskell**
 * *Philipp Kant:* <br/>
@@ -76,7 +76,7 @@ We are happy to announce that we have accepted 11 talks and 3 tutorials. See bel
 ### Tutorials
 
 * *Henning Thielemann:*<br/>
-  **Efficient signal processing using Haskell and LLVM**
+  **Efficient signal processing using Haskell and LLVM** <small>[abstract](program.html#thielemann)</small>
 * *[Anton Kholomiov]:* <br/>
   **Workshop: creating computer music with Haskell**
 * *Philipp Schuster:* <br/>

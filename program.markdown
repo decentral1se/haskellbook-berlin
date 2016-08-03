@@ -77,6 +77,86 @@ JavaScript.
 ### Random access lists, nested data types and numeral systems {#komuves}
 *by Balazs Komuves*
 
+Random access lists, as introduced by Okasaki[^Oka95] [^Oka96], are persistent list-like
+data structures with faster lookup than linked lists. This talk will be an explanation
+of these data structures and their connection to numeral systems, with a small twist.
+I claim no originality at all.
+
+The core idea is that you can take a positional numeral system, like the usual binary,
+ternary etc. numeral systems (or more esoteric ones, like the skew binary system), and
+"categorify it", turning the length of a list (a number) into an actual sequence data type.
+In place of the digits you will have tuples of (full) trees: For example in the decimal system,
+if the digit at the hundreds place is 3, that will translate to a triple of 10-way trees,
+each containing 100 elements at the leaves.
+
+The usual linked list corresponds to the unary system; but with the non-unary systems, you
+get O(log(k)) lookup, while modifying the left end of the list still remains on average O(1)
+(worst case is typically O(log(n)), though guaranteed O(1) can be achieved too). They can be
+also more compact in memory than linked lists (with GHC's in-memory representation).
+
+Okasaki used the standard tree representation, which is one of the first data types one meets
+when learning Haskell; for example, a leaf binary tree is represented as
+
+```haskell
+data Tree a
+  = Leaf a
+  | Node (Tree a) (Tree a)
+```
+
+However, full binary trees can be also represented by a nested data type:
+
+```haskell
+data Tree' a
+  = Single a
+  | Double (Tree' (a,a))
+```
+
+The word nested[^BM98] refers to the fact that the type parameter changes during the recursion.
+Functions operating on such types require polymorphic recursion, an interesting language feature.
+The nested binary tree has two advantages over the usual representation: First, the type system
+guarantees that the tree is full (that is, every leaf has the same depth); second, since it lacks
+the extra indirection at the leaves, it takes less memory (by two machine words per element, with GHC).
+While the extra indirection can be also eliminated by modifying the original tree definition,
+that would result in less elegant and more complicated code.
+
+This idea can be applied to our list-like data structures, giving for example the following
+very simple representation of leaf binary random-access lists:
+
+```haskell
+data Seq a
+  = Nil                   -- the empty sequence
+  | Zero   (Seq (a,a))    -- a sequence of even length
+  | One  a (Seq (a,a))    -- a sequence of odd length
+```
+
+The implementation of the usual list operations is also very straightforward and simple
+(a Haskell implementation can be found at[^KD16]). The same idea can be also applied to
+the other variations. The resulting data structures are somewhat reminiscent of finger trees[^HP06],
+which are also implemented using nested data types; however, these are much simpler (of course,
+finger trees support more types of efficient operations).
+
+A variation of the above idea uses the so-called skew numeral systems; these allow (modulo
+implementation details) guaranteed O(1) cons, in exchange for a slightly more complicated
+implementation. The resulting data structures use trees with data on both the nodes and the
+leaves (which also results in more compact in-memory representation). Okasaki uses the skew
+binary number system.
+
+
+[^BM98]: Richard S. Bird and Lambert G. L. T. Meertens, Nested datatypes, Proceedings of the
+         Mathematics of Program Construction, MPC '98, Springer-Verlag, 1998, pp. 52--67.
+
+[^HP06]: Ralf Hinze and Ross Paterson, Finger trees: A simple general-purpose data structure,
+        J. Funct. Program. 16 (2006), no. 2, 197--217.
+
+[^KD16]: Balazs Komuves and Peter Divianszky, The nested-sequence Haskell library, 2016,
+        http://hackage.haskell.org/package/nested-sequence.
+
+[^Oka95]: Chris Okasaki, Purely functional random-access lists, In Functional Programming
+        Languages and Computer Architecture, ACM Press, 1995, pp. 86--95.
+
+[^Oka96]: Chris Okasaki, Purely functional data structures, Ph.D. thesis, Carnegie Mellon
+        University, 1996.
+
 ### Plugin Architectures in Haskell {#graf}
 *by Sebastian Graf*
 
