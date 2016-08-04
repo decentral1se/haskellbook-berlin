@@ -73,6 +73,47 @@ JavaScript.
 ### Dependently Typed Heaps {#brunjes}
 *by [Lars Brünjes]*
 
+Using the newest type­level features in GHC, it finally becomes feasible to try some more serious
+dependently typed programming in Haskell and to even prove mathematical theorems 
+and have their proofs checked by Haskell's type checker.
+
+My talk is intended to serve as an introduction to such techniques
+and as an example of how to express reasonably complex invariants on the type level.
+The talk should be accessible for Haskellers at an intermediate level, who don't need any special
+prior knowledge on dependent types.
+
+As an introduction, demonstration and proof of concept, 
+I would like to present my little toy project on 
+[Dependently Typed Heaps](https://github.com/brunjlar/heap), 
+where I implement *leftists heaps* (following Chris Okasaki's 
+[Purely Functional Data Structures](http://www.cambridge.org/gb/academic/subjects/computer-science/programming-languages-and-applied-logic/purely-functional-data-structures)), 
+where both the heap invariant and the leftist property are
+statically ensured by the type system. (In my talk, I will of course first explain what those terms mean and how
+traditional leftist heaps work.)
+
+To encode those invariants in the Haskell type system, 
+typelevel natural numbers have to be defined,
+and several simple theorems have to be proved for them.
+
+To this end, instead of directly working with a specific encoding of natural numbers, 
+the abstract concept of "type­level natural number" will be defined by a type class, 
+for which two implementations will be provided:
+
+ * simple, unary "Peano" numbers, which are easy to define and understand,
+ but which are also unfortunately inefficient, and
+
+ * binary numbers, which are more efficient, but also a bit more complicated.
+
+We can prove various properties of such natural numbers 
+(decidability of the order relation etc.) 
+in Haskell in order to provide a heap implementation with strong type­level guarantees at compile
+time.
+
+My benchmarks indicate that the resulting algorithm
+is reasonably efficient in the sense of complexity, 
+apparently still being of time complexity class
+*O(n log n)* like the original algorithm, but they also show that safety comes at a steep price: 
+The "unchecked" algorithm is at least an order of magnitude faster than my "safe" algorithm.
 
 ### Random access lists, nested data types and numeral systems {#komuves}
 *by Balazs Komuves*
