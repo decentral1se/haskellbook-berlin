@@ -62,7 +62,7 @@ JavaScript.
 *by Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]:*
 
 ### HGamer3D - a toolset for developing games with Haskell {#althainz-talk}
-*by Peter Althainz*
+*by Peter Althainz* (also see the corresponding [tutorial](#althainz-tutorial).)
 
 HGamer3D is a toolset for programming 3D games with Haskell. From the early stages and through some experimental times the project has made progress to a point where some stability has been reached and real games can be created with it. To be useful for a developer such a toolset needs to provide solutions for such seemingly trivial topics as:
 
@@ -423,7 +423,7 @@ That way you can get more out of the workshop.
 *by Philipp Schuster*
 
 ### HGamer3D - do it yourself {#althainz-tutorial}
-*by Peter Althainz*
+*by Peter Althainz* (also see the corresponding [talk](#althainz-talk).)
 
 During the tutorial we will install HGamer3D development tools on your computer and go through a number of exercises, along the following path:
 
