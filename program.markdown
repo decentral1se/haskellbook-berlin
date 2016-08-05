@@ -345,6 +345,54 @@ The goal is to collect resources in a common place and present the results in a 
 ### Store: An Efficient Binary Serialization Library {#kant}
 *by Philipp Kant*
 
+Serialization, the process of converting structured data into a
+sequence of bytes, is a necessary step in many software programs.
+When designing a serialization library, there are many trade-offs that
+have to be considered:
+
+- Is interoperability with other languages required?
+- What about interoperability between different hardware architectures?
+- Backwards compatibility: is it possible to make additions to the
+  serialization format without invalidating previously serialized data?
+- How important is the size of the resulting serialization
+- How important is the speed of serialization and deserialization?
+- How easy is the library to use?  How much code has the user to
+  provide in order to support serialization of a custom data type?
+
+The Haskell ecosystem features a selection of serialization
+libraries, each of which make different choices for the trade-offs
+above.
+
+We present _store_, a recent addition to the line-up of serialization
+libraries that prioritizes heavily on speed.  It was designed with the
+main use-case of distributed high-performance computing in mind.  By
+cutting back on features that are not necessary in that context, and
+by exploiting assumptions about the typical data payload, it succeeds
+to provide routines for serialization and deserialization that are
+faster than those of the libraries that cover the general case.
+
+For example, _store_ assumes that
+
+- There is no need to provide compatibility between different
+  architectures and/or versions of the serialization scheme.
+  In particular, _store_ can use the host byte order, instead of
+  converting to a fixed endianness.  This allows for code that is both
+  simpler, and more efficient.
+
+- The size of the serialized data can easily be determined prior to
+  serialization, and is small enough to fit into memory.
+  Thus, _store_ can allocate the whole memory for serialization in one
+  step, without needing to grow buffers.
+
+_Store_ has pre-defined instances for most common datatypes.  For
+convenience, the library provides methods to implement custom
+instances using Generics or template Haskell.  It also features a thin
+streaming layer that allows incrementally consuming input from
+streaming sources, such as a network connection.
+
+This talk will give an overview of the design principles behind
+_store_, and demonstrate that they lead to efficient code.
+
 ### Csound-expression Haskell framework for computer music {#kholomiov-talk}
 *by Anton Kholomiov* (also see the corresponding [tutorial](#kholomiov-tutorial).)
 

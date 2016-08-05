@@ -78,6 +78,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   <small>[abstract](program.html#graf)</small>
 * *Philipp Kant:* <br/>
   **Store: An Efficient Binary Serialization Library**
+  <small>[abstract](program.html#kant)</small>
 * *[Anton Kholomiov]:* <br/>
   **Csound-expression Haskell framework for computer music**
   <small>[abstract](program.html#kholomiov-talk)</small>
