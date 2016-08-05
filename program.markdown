@@ -427,14 +427,12 @@ That way you can get more out of the workshop.
 
 During the tutorial we will install HGamer3D development tools on your computer and go through a number of exercises, along the following path:
 
-* Install tooling, including compiler, graphic tools, editor and HGamer3D (10 min)
-* Build the first executable (5 min)
-* Starting with the API, Playing Audio, Display Graphics, Display GUI (10 min)
+* Install tooling, including compiler, graphic tools, editor and HGamer3D (15 min)
 * The 3D coordinate system and API (10 min)
-* Events (5 min)
 * Item Hierarchies (5 min)
-* Getting media into your game (15 min)
-* Challenge: program your own game, 2 challenges prepared (20 min)
+* Getting media into your game (10 min)
+* Break (10 min)
+* Challenge: "program your own game": given a vision of a game and essential code snippets to program certain features, you are left on your own to build a running game (30 min)
 * Distribute your game (10 min)
 
 Prerequisites: Linux, Windows or OS X installed. Internet connection to download the tooling. 
