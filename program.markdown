@@ -68,7 +68,8 @@ JavaScript.
 *by Viktor Winschel*
 
 ### Project report: building a web-application with servant, lucid, and digestive-functors {#fischmann}
-*by Matthias Fischmann and Andor Penzes:*
+*by Matthias Fischmann and Andor Pénzes:*
+
 
 ### Dependently Typed Heaps {#brunjes}
 *by [Lars Brünjes]*
@@ -224,7 +225,18 @@ feature allows us to construct music in the interactive style. We can create
 music in the REPL.
 
 ### Simple blog engine with shape functors and generic eliminators for ADTs {#penez}
-*by Andor Penzes*
+*by Andor Pénzes*
+
+Processing complex information via generic eliminators (GE), type holes,
+algebras and catamorphisms for ADTs are tools in the functional programming toolbox.
+I would like to present a use case where combined approach of those tools is
+pushed to the limit. As an experiment, a simple blog engine is implemented. The result
+shows how a developer can concentrate on solving particular problems, how
+algebras and catamorphisms support the separation of concerns and readability, how type holes gives extra power to the abstractions.
+
+Besides the current example, we can make comparison between different
+approaches, using lenses or not using generic eliminators et al.
+
 
 ## Tutorials
 

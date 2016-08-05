@@ -64,7 +64,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   **HGamer3D - a toolset for developing games with Haskell**
 * *Viktor Winschel:*<br/>
   **Management at Algorithmic Financial Markets**
-* *Matthias Fischmann and Andor Penzes:*<br/>
+* *Matthias Fischmann and Andor Pénzes:*<br/>
   **Project report: building a web-application with servant, lucid, and digestive-functors**
 * *[Lars Brünjes]:*<br/>
   **Dependently Typed Heaps**
@@ -78,8 +78,9 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
 * *[Anton Kholomiov]:* <br/>
   **Csound-expression Haskell framework for computer music**
   <small>[abstract](program.html#kholomiov-talk)</small>
-* *Andor Penzes:* <br/>
+* *Andor Pénzes:* <br/>
   **Simple blog engine with shape functors and generic eliminators for ADTs**
+  <small>[abstract](program.html#penez)</small>
 
 [Johannes Waldmann]: http://www.imn.htwk-leipzig.de/~waldmann/
 [Peter F. Stadler]: http://www.bioinf.uni-leipzig.de/
