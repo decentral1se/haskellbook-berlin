@@ -31,7 +31,7 @@ Dates
 Program
 -------
 
-We are happy to announce that we have accepted 11 talks and 3 tutorials. See below for a concise list or the [full program](program.html) for the list including abstracts.
+We are happy to announce that we have accepted 11 talks and 4 tutorials. See below for a concise list or the [full program](program.html) for the list including abstracts.
 
 ### Invited Speaker
 
@@ -62,6 +62,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
 * *Peter Althainz:*<br/>
   **HGamer3D - a toolset for developing games with Haskell**
+  <small>[abstract](program.html#althainz-talk)</small>
 * *Viktor Winschel:*<br/>
   **Management at Algorithmic Financial Markets**
 * *Matthias Fischmann and Andor Pénzes:*<br/>
@@ -98,6 +99,9 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   <small>[abstract](program.html#kholomiov-tutorial)</small>
 * *Philipp Schuster:* <br/>
   **Ten example uses of monads**
+* *Peter Althainz:*<br/>
+  **HGamer3D - do it yourself**
+  <small>[abstract](program.html#althainz-tutorial)</small>
 
 The schedule will be finalized and announced at some later time.
 
