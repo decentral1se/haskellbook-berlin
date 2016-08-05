@@ -111,9 +111,9 @@ rotateCube eGeo = forever $ do
                       sleepFor (msecT 12)
 ```
 
-To not oversell: no there are no big games programmed with HGamer3D, yet. Yes, the demo is still a "toy" example, but it is a fully functional example with sound, input, graphics, gui and gameplay.
+To not oversell: no there are no big games programmed with HGamer3D, yet and yes, the demo is still a "toy" example. But it is a fully functional example with sound, input, graphics, gui and gameplay.
 
-The talk will close with a summary, suggesting where HGamer3D is a good fit and where not, it will also try to give some reasoning why there are so many game framewords and not so many games still programmed in Haskell and how HGamer3D might change that and it will end with an outlook.
+The talk will close with a summary, suggesting where HGamer3D is a good fit and where not, it will also try to give some reasoning on the state of the Haskell ecosystem with regards to game programming. Finally an outlook will be shown on possible future directions of HGamer3D. 
 
 There is also a tutorial planned, HGamer3D do it yourself, see below.
 
@@ -421,6 +421,23 @@ That way you can get more out of the workshop.
 
 ### Ten example uses of monads {#schuster}
 *by Philipp Schuster*
+
+### HGamer3D - do it yourself {#althainz}
+*by Peter Althainz*
+
+During the tutorial we will install HGamer3D development tools on your computer and go through a number of exercises, along the following path:
+
+* Install tooling, including compiler, graphic tools, editor and HGamer3D (10 min)
+* Build the first executable (5 min)
+* Starting with the API, Playing Audio, Display Graphics, Display GUI (10 min)
+* The 3D coordinate system and API (10 min)
+* Events (5 min)
+* Item Hierarchies (5 min)
+* Getting media into your game (15 min)
+* Challenge: program your own game, 2 challenges prepared (20 min)
+* Distribute your game (10 min)
+
+Prerequisites: Linux, Windows or OS X installed. Internet connection to download the tooling. 
 
 
 [Johannes Waldmann]: http://www.imn.htwk-leipzig.de/~waldmann/
