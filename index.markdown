@@ -74,6 +74,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   **Random access lists, nested data types and numeral systems** <small>[abstract](program.html#komuves)</small>
 * *Sebastian Graf:*<br/>
   **Plugin Architectures in Haskell**
+  <small>[abstract](program.html#graf)</small>
 * *Philipp Kant:* <br/>
   **Store: An Efficient Binary Serialization Library**
 * *[Anton Kholomiov]:* <br/>
