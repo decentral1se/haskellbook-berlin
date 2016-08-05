@@ -64,6 +64,59 @@ JavaScript.
 ### HGamer3D - a toolset for developing games with Haskell {#althainz}
 *by Peter Althainz*
 
+HGamer3D is a toolset for programming 3D games with Haskell. From the early stages and through some experimental times the project has made progress to a point where some stability has been reached and real games can be created with it. To be useful for a developer such a toolset needs to provide solutions for such seemingly trivial topics as:
+
+* bindings to C++ libraries are needed
+* threading needs to be encapsulated between Haskell and underlying libraries
+* everything should run on multiple platforms, for example Linux, Windows, Mac
+* install procedure should be easy and should work flawlessly
+* games should be easy to distribute
+* API should be easy to use, should provide good semantics and should bridge OO and functional world
+* API should be comprehensive enough to be useful, but high level enough to be usable
+* performance should be sufficient
+* tooling is needed to handle media and 3D scene creation
+
+For all those topics HGamer3D has some answers but in a short talk like the one presented they cannot be addressed in detail. I also think that most of the audience is probably more interested in a quite pragmatic question: what can I do with it, why should I choose HGamer3D for my next game project, are there any running games programmed with it, if not, why not?
+
+The talk will therefore be split into a small introduction, which just gives an overview of HGamer3D including a simple list of solutions to the topics above and afterwards the main body will be about:
+
+* an introduction to the API structure
+* a Demo of a real game, programmed with HGamer3D
+* API snippets showing how central features are implemented in the Demo
+* an overview over the feature coverage, what is implemented for 3D game programming, what is missing
+
+Some API examples, to give you a first impression:
+
+```haskell
+
+-- create a camera
+eCam <- newE hg3d [
+    ctCamera #: FullViewCamera,
+    ctPosition #: Vec3 1 1 (-30.0),
+    ctLight #: Light PointLight 1.0 1000.0 1.0
+    ]
+
+-- create a cube
+eGeo <- newE hg3d [
+    ctGeometry #: ShapeGeometry Cube,
+    ctMaterial #: matBlue,
+    ctScale #: Vec3 10.0 10.0 10.0,
+    ctPosition #: Vec3 0.0 0.0 0.0,
+    ctOrientation #: unitU
+    ]
+    
+-- rotate cube
+rotateCube eGeo = forever $ do
+                      updateC eGeo ctOrientation (\u -> (rotU vec3Z 0.02) .*. u)
+                      sleepFor (msecT 12)
+```
+
+To not oversell: no there are no big games programmed with HGamer3D, yet. Yes, the demo is still a "toy" example, but it is a fully functional example with sound, input, graphics, gui and gameplay.
+
+The talk will close with a summary, suggesting where HGamer3D is a good fit and where not, it will also try to give some reasoning why there are so many game framewords and not so many games still programmed in Haskell and how HGamer3D might change that and it will end with an outlook.
+
+There is also a tutorial planned, HGamer3D do it yourself, see below.
+
 ### Management at Algorithmic Financial Markets {#winschel}
 *by Viktor Winschel*
 
