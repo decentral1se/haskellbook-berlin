@@ -257,7 +257,7 @@ binary number system.
 
 Creativity and discontent gave rise to a number of different approaches and even more libraries for customizing applications written in Haskell. Most of them rely on the GHC API in one way or another, so over time many of said libraries have gone obsolete or superseded by another contender. As evidenced by posts on reddit and Stack Overflow, that led to huge confusion in the community, to a point where no-one has a clear overview of the current possible alternatives for extending a Haskell application after compilation.
 
-This talk will try to give an overview of available means to loading and executing (mostly Haskell) code (mostly) at runtime, discussing its impliciations on type safety and versioning. Packages will be categorized by the taken approach and the most promiment proxy per category will have to serve for some live coding adventures. The pitch:
+This talk will try to give an overview of available means to loading and executing (mostly Haskell) code (mostly) at runtime, discussing its impliciations on type safety and versioning. Packages will be categorized by the taken approach and the most prominent proxy per category will have to serve for some live coding adventures. The pitch:
 
 - Embedding a scripting language via lua bindings and hint
 - XMonad and Yi style configuration via Dyre
