@@ -104,11 +104,11 @@ eGeo <- newE hg3d [
     ctPosition #: Vec3 0.0 0.0 0.0,
     ctOrientation #: unitU
     ]
-    
+
 -- rotate cube
-rotateCube eGeo = forever $ do
-                      updateC eGeo ctOrientation (\u -> (rotU vec3Z 0.02) .*. u)
-                      sleepFor (msecT 12)
+rotateCube eGeo = forever $$ do
+    updateC eGeo ctOrientation (\u -> (rotU vec3Z 0.02) .*. u)
+    sleepFor (msecT 12)
 ```
 
 To not oversell: no there are no big games programmed with HGamer3D, yet and yes, the demo is still a "toy" example. But it is a fully functional example with sound, input, graphics, gui and gameplay.
