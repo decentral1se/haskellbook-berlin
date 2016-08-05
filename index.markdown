@@ -60,6 +60,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   **Automated Performance Measurements**
 * *Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]:*<br/>
   **Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics**
+  <small>[abstract](program.html#stadler)</small>
 * *Peter Althainz:*<br/>
   **HGamer3D - a toolset for developing games with Haskell**
   <small>[abstract](program.html#althainz-talk)</small>

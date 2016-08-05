@@ -61,6 +61,85 @@ JavaScript.
 ### Generalized Algebraic Dynamic Programming: Theory and Applications in Bioinformatics and Linguistics {#stadler}
 *by Sarah J. Berkemer, [Peter F. Stadler] and [Christian Hoener Zu Siederdissen]:*
 
+Dynamic programming (DP) algorithms are pervasive in bioinformatics and
+linguistics (and more exotic domains) but typically implemented as
+“one-shot” solutions.
+
+In addition to just a growing number of applications, there seems to be a trend
+towards more complex algorithms as well. We recognize at least these degrees of
+increasing complexity and certain desiderata to control this complexity:
+
+(i) More refined search spaces which require larger sets of rules to describe.
+Less *ad-hoc* ways to design these improve confidence in construction.
+
+(ii) The desire to calculate more than just a single optimal result, be it
+ensemble-style posterior probabilities or classified dynamic programming
+benefits from automatic code generation.
+
+(iii) Many DP algorithms operate on sets, trees, or other non-string data
+structures. For these more complex structures, both theory and support for
+implementations are required.
+
+(iv) On a more basic level, developers have to deal with writing code that
+should be free of bugs, maintainable, and sufficiently efficient.
+
+In the talk, we will provide an introduction to *generalized Algebraic
+Dynamic Programming* which simplifies design and implementation of dynamic
+programming algorithms considerably. Users of our system can combine individual
+algorithms like building blocks, have outside algorithms be derived fully
+automatically, design algorithms on a multitude of input structures (we
+currently provide implementations for strings, trees, and sets), and even go
+beyond context-free grammars.
+
+We will focus on recent work on dynamic programming for tree-like data
+structures. Dynamic programming for tree structures is arguably less well known
+compared to “canonical text book examples” but has interesting applications
+in bioinformatics and linguistics, as well as providing easy-to-understand but
+non-trivial to implement algorithms.
+
+Compared to our earlier work on dynamic programming on strings, or dynamic
+programming on sets, we now have to deal with input structures that are more
+complex. Strings are inherently one-dimensional, and recursively decomposed by
+removing the first or last element, or splitting the string in two. Sets on the
+other hand are completely unstructured and recursively decomposed by the
+removal of subsets, or individual vertices. Trees and forests on the other hand
+are two-dimensional structures, with decompositions into both, subforests of
+siblings, and subforests induced by the removal of local root nodes during
+recursive decomposition.
+
+The talk will feature an introduction to a small number of dynamic programming
+problems on trees and forests with applications in alignment of structuresd
+RNA, as well as alignment of well-formed grammatical structures (sentences) in
+human languages.
+
+We discuss single, optimal solutions as well as Inside-Outside solutions which
+provide answers for the ensemble of all possible solutions for a given problem
+instance, for example the probability of individual nodes of two trees to be
+aligned.
+
+We will cover the extension of *ADPfusion* [^HOE:2012], which was developed for
+string-type algorithms, to *generalized Algebraic Dynamic Programming* [^HOE:2012] [^HOE:HOF:2014] [^HOE:PRO:2015] [^BER:STA:2016] and the underlying implementation as an embedded domain-specific language directly
+in Haskell.
+
+The talk will feature an introduction into the topic of Dynamic Programming
+based on string distance problems.
+
+[^BER:STA:2016]: Sarah Berkemer, Peter F. Stadler, and Christian Höner zu Siederdissen.
+General reforestation: Parsing trees and forests. submitted, 2016.
+
+[^HOE:2012]: Christian Höner zu Siederdissen. Sneaking Around concatMap: Efficient
+Combinators for Dynamic Programming. In Proceedings of the 17th ACM
+SIGPLAN international conference on Functional programming, ICFP ’12,
+pages 215–226, New York, NY, USA, 2012. ACM.
+
+[^HOE:HOF:2014]: Christian Höner zu Siederdissen, Ivo L. Hofacker, and Peter F. Stadler.
+Product Grammars for Alignment and Folding. IEEE/ACM Transactions
+on Computational Biology and Bioinformatics, 12(3):507–519, 2014.
+
+[^HOE:PRO:2015]: Christian Höner zu Siederdissen, Sonja J. Prohaska, and Peter F. Stadler.
+Algebraic dynamic programming over general data structures. BMC Bioin-
+formatics, 16, 2015.
+
 ### HGamer3D - a toolset for developing games with Haskell {#althainz-talk}
 *by Peter Althainz* (also see the corresponding [tutorial](#althainz-tutorial).)
 
@@ -114,8 +193,6 @@ rotateCube eGeo = forever $$ do
 To not oversell: no there are no big games programmed with HGamer3D, yet and yes, the demo is still a "toy" example. But it is a fully functional example with sound, input, graphics, gui and gameplay.
 
 The talk will close with a summary, suggesting where HGamer3D is a good fit and where not, it will also try to give some reasoning on the state of the Haskell ecosystem with regards to game programming. Finally an outlook will be shown on possible future directions of HGamer3D. 
-
-There is also a tutorial planned, HGamer3D do it yourself, see below.
 
 ### Management at Algorithmic Financial Markets {#winschel}
 *by Viktor Winschel*
