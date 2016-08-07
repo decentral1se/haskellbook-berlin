@@ -200,6 +200,13 @@ The talk will close with a summary, suggesting where HGamer3D is a good fit and 
 ### Project report: building a web-application with servant, lucid, and digestive-functors {#fischmann}
 *by Matthias Fischmann and Andor Pénzes:*
 
+Servant is a library for writing HTTP routing tables on the type level.  It is commonly used for micro-services and for delivering json data to single-page apps, but it is possible to use it for delivering web pages and forms, and build a low- or no-js web application with it.
+
+Aula ([code](https://github.com/liqd/aula/), [blog of the pilot project](http://aula-blog.website/)) is such a web application.  It is based on [servant](https://hackage.haskell.org/package/servant) for request processing, [lucid](https://hackage.haskell.org/package/lucid) (a sibling package of [blaze](https://hackage.haskell.org/package/blaze-html)) for html content rendering, and [digestive-functors](https://hackage.haskell.org/package/digestive-functors) for web form processing.  Sticking these parts together proved both non-trivial and very rewarding.  Benefits are clear separation between application logic, html rendering, form data validation, and tedious details like authentication or CSRF token handling.
+
+Aula is AGPL.  We plan to refactor parts of the code into general-purpose libraries.
+
+In this talk, we look at pieces of the Aula code base and discus strengths and weeknesses of our approach.  We will also give a summary of our experience with Haskell tooling and deployment.
 
 ### Dependently Typed Heaps {#brunjes}
 *by [Lars Brünjes]*
