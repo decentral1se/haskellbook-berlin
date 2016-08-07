@@ -68,6 +68,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   **Management at Algorithmic Financial Markets**
 * *Matthias Fischmann and Andor Pénzes:*<br/>
   **Project report: building a web-application with servant, lucid, and digestive-functors**
+  <small>[abstract](program.html#fischmann)</small>
 * *[Lars Brünjes]:*<br/>
   **Dependently Typed Heaps**
   <small>[abstract](program.html#brunjes)</small>
