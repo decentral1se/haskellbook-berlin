@@ -197,6 +197,26 @@ The talk will close with a summary, suggesting where HGamer3D is a good fit and 
 ### Management at Algorithmic Financial Markets {#winschel}
 *by Viktor Winschel*
 
+The financial industry, as all sectors of the economies, is about to be swamped with new algorithmic solutions and processes. I will walk through an example of a usual insurance company or bank and explain the involved tasks that can be automated by an integrated algoritmic approach to management towards a more or less fully digital company. Along these lines I will show how our foundational research in the last years between economics, game theory and formal semantics of programming languages can help to tailor a domain specific language for the management at algorithmic financial markets.
+
+Our approach to management at financial markets is three folded: macroeconomics, game theory and smart contracts. We are providing a revolutionary approach to macroeconomic modelling via traditional physical modelling techniques based on analytical and synthetical differential geometry. Besides clarifying some century old modelling problems within macroeconomics this approach also lends itself naturally to an implementation in functional programming languages. The formalization within category theory provides the framework for the modelling of financial market participants like one’s own banks or insurances and those of the compatitors. The strategic decision models within the macroeconomic models are to be based on our new higher-order approach to game theory based on programming language semantics. The third part of our approach to financial markets are smart contracts like those underlying ethereum and bitcoins which model the elements of balance sheets but also the elements of organizational contracts.  I will dwell into some details of these topics and try to connect to the underlying mathematical machinery that may be more familiar to the Haskell community.
+
+Essentially we are developing a category theory based DSL for our kind of game theory with the compiler being implemented in Haskell in line with the mathematical foundation of Haskell that is at the core of our formalizations. The new features of our games are compositionality with a formal semantics for the composed behaviour, a visual representation of games by string diagrams adapted from quantum computing, a behavioural abstraction by higher-order functions generalizing utility maximization of standard economics as its main model of behaviour and coalgebraic operators for the infinite repetition of games. The direction of our work, based on our compositionality principle, is to establish a scientific base for macroeconomics and money theory underlying the operation of financial markets. We are currently setting up a start-up company in order to market this research. Haskell enthusiasts are welcomed to join our efforts.
+
+Our company emerged from and is still cooperating with a research community based at UK universities, Glasgow, Leicester, London and Oxford and some others in the Netherland and Germany and Switzerland collaborating at the borders of economics and computer science. This movement took off around 2010 with a first contact of Viktor Winschel to the Oxford Quantum compunting group around Samson Abramsky and Bob Coecke. The work so far has been very foundational with papers and PhD thesis on string diagrams and categorical higher-order game theory. By now we have clarified what can actually be done with these tools within economics and push now into industry. The involved researchers are very enthusiatic in that the surprising common foundations of economcis and computer science opens up various interesting possibilities and applications of high end mathematics in very practical fields.
+
+The format of my presentation will be a usual slide show. The indented audience are Haskell programmers who are also interested in the common mathematical structures of programming language semantics and economics and game theory. Even so I will not dwell into very detailed and formal category theory or coalgebras it might be beneficial to see the point of basing economics and computer science on this foundation. Also there might be Haskell programmers who are interested in joining the developing FinTech industry in Frankfurt and possibly colaborate with or join our startup company.
+
+For further information, look at these conferences and papers:
+
+* <http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=14182>
+* <http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=15042>
+* <http://homepage.tudelft.nl/c9d1n/lsb3/lsb3.html>
+* <http://www.lorentzcenter.nl/lc/web/2016/840/info.php3?wsid=840&venue=Oort>
+* <http://arxiv.org/find/cs/1/au:+Winschel_V/0/1/0/all/0/1>
+* <http://arxiv.org/abs/1603.04641>
+
+
 ### Project report: building a web-application with servant, lucid, and digestive-functors {#fischmann}
 *by Matthias Fischmann and Andor Pénzes:*
 

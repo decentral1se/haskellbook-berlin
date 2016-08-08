@@ -66,6 +66,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   <small>[abstract](program.html#althainz-talk)</small>
 * *Viktor Winschel:*<br/>
   **Management at Algorithmic Financial Markets**
+  <small>[abstract](program.html#winschel)</small>
 * *Matthias Fischmann and Andor Pénzes:*<br/>
   **Project report: building a web-application with servant, lucid, and digestive-functors**
   <small>[abstract](program.html#fischmann)</small>
@@ -73,7 +74,8 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
   **Dependently Typed Heaps**
   <small>[abstract](program.html#brunjes)</small>
 * *Balazs Komuves:*<br/>
-  **Random access lists, nested data types and numeral systems** <small>[abstract](program.html#komuves)</small>
+  **Random access lists, nested data types and numeral systems**
+  <small>[abstract](program.html#komuves)</small>
 * *Sebastian Graf:*<br/>
   **Plugin Architectures in Haskell**
   <small>[abstract](program.html#graf)</small>
