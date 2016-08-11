@@ -73,7 +73,7 @@ You can listen to the music on soundcloud at <https://soundcloud.com/anton-kho/>
 * *[Lars Brünjes]:*<br/>
   **Dependently Typed Heaps**
   <small>[abstract](program.html#brunjes)</small>
-* *Balazs Komuves:*<br/>
+* *Balázs Kőműves:*<br/>
   **Random access lists, nested data types and numeral systems**
   <small>[abstract](program.html#komuves)</small>
 * *Sebastian Graf:*<br/>
