@@ -274,7 +274,7 @@ apparently still being of time complexity class
 The "unchecked" algorithm is at least an order of magnitude faster than my "safe" algorithm.
 
 ### Random access lists, nested data types and numeral systems {#komuves}
-*by Balazs Komuves*
+*by Balázs Kőműves*
 
 Random access lists, as introduced by Okasaki[^Oka95] [^Oka96], are persistent list-like
 data structures with faster lookup than linked lists. This talk will be an explanation
