@@ -1,11 +1,8 @@
---------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+
 import Data.Monoid (mappend)
 import Hakyll
 import Text.Pandoc.Options
-
-
---------------------------------------------------------------------------------
 
 siteTitle = "Berlin haskellbook.com reading group 2016."
 
@@ -15,10 +12,6 @@ config = defaultConfiguration
 
 main :: IO ()
 main = hakyllWith config $ do
-    match "images/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
     match "css/fonts/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -26,11 +19,6 @@ main = hakyllWith config $ do
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
-
-    create ["CNAME"] $ do
-        route idRoute
-        compile $ makeItem ("hal2016.haskell.org\n"::String)
-
 
     match "index.markdown" $ do
         route $ setExtension "html"
@@ -54,15 +42,6 @@ main = hakyllWith config $ do
                                           , writerTemplate = "$toc$"
                                           , writerStandalone = True
                                           }
-
-    match "program.markdown" $ do
-        route $ setExtension "html"
-        compile $
-            pandocCompiler
-                >>= applyAsTemplate defaultContext
-                >>= loadAndApplyTemplate "templates/default.html" defaultContext
-                >>= relativizeUrls
-
 
     match "templates/*" $
         compile templateCompiler

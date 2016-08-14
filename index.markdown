@@ -3,7 +3,7 @@ title: Berlin Haskell Reading Group
 ---
 
 We're a group based in Berlin motivated to learn the
-[Haskell](http://haskell.org/) programming language. Initially proposed by
+[Haskell][haskell] programming language. Initially proposed by
 [Adel][adel], we plan to use the newly released ['Haskell Programming from first principles'][the-book] 
 as our learning material. The author comes highly recommended, please visit
 [his blog][blog] to find out more.
@@ -50,3 +50,4 @@ each other.
 [blog]: http://bitemyapp.com/
 [iss]: https://github.com/lwm/haskellbook-berlin/issues
 [sample]: http://haskellbook.com/images/sample.pdf
+[haskell]: https://www.haskell.org/

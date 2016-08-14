@@ -10,7 +10,7 @@ Please open [an issue][iss] and someone will help you.
 
 # Contributing
 
-[Fork the repo][fork] and submit your changes.
+[Fork the repo][fork] and open a pull request!
 
 You can also use [stack][stack] to get things running locally:
 
@@ -19,9 +19,7 @@ You can also use [stack][stack] to get things running locally:
   $ stack exec haskellbook-berlin server
 ```
 
-[link]: http://haskellbook-berlin.github.io
-[guides]: https://guides.github.com/
-[pr]: https://github.com/lwm/haskellbook-berlin/pull/new/master
+[link]: https://lwm.github.io/haskellbook-berlin/
 [iss]: https://github.com/lwm/haskellbook-berlin/issues
 [stack]: https://docs.haskellstack.org/en/stable/README/
 [fork]: https://github.com/lwm/haskellbook-berlin#fork-destination-box
