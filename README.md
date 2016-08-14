@@ -1,4 +1,4 @@
-# haskellbook-berlin.github.io
+# haskellbook-berlin
 
 This is the repository for the Berlin based Haskell reading group.
 
