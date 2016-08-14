@@ -7,7 +7,7 @@ import Text.Pandoc.Options
 
 --------------------------------------------------------------------------------
 
-siteTitle = "Haskell in Leipzip 2016"
+siteTitle = "Berlin haskellbook.com reading group 2016."
 
 config = defaultConfiguration
     { deployCommand = "./deploy.sh"

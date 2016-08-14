@@ -1,16 +1,27 @@
-Source for http://hal2016.haskell.org/
-=====================================
+# haskellbook-berlin.github.io
 
-This repository contains the source for http://hal2016.haskell.org/. Together
-with travis and GitHub pages, this is set up so that every commit is
-automatically deployed.
+This is the repository for the Berlin based Haskell reading group.
 
-So if you want to change something on the webpage, e.g. a typo in your name,
-the abstract of your talk or similar, simply click [edit] and create a pull
-request.
+Please visit the [haskellbook-berlin][link] page for more information.
 
-How much more convenient for everyone than sending around mails!
+# Get Help
 
-Contact Joachim Breitner <<breitner@kit.edu>> in case of questions.
+Please open [an issue][iss] and someone will help you.
 
-[edit]: https://github.com/nomeata/hal2016-website/edit/master/index.markdown
+# Contributing
+
+[Fork the repo][fork] and submit your changes.
+
+You can also use [stack][stack] to get things running locally:
+
+```
+  $ stack build
+  $ stack exec haskellbook-berlin server
+```
+
+[link]: http://haskellbook-berlin.github.io
+[guides]: https://guides.github.com/
+[pr]: https://github.com/lwm/haskellbook-berlin/pull/new/master
+[iss]: https://github.com/lwm/haskellbook-berlin/issues
+[stack]: https://docs.haskellstack.org/en/stable/README/
+[fork]: https://github.com/lwm/haskellbook-berlin#fork-destination-box
