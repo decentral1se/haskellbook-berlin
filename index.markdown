@@ -48,6 +48,11 @@ level is welcome and you can join whenever you want. Please do attend, even
 when you didn't get the material covered. We can all still learn something from
 each other.
 
+Additional Resources
+----
+
+  * [Chapter follow-up resources][follow]
+
 [first-meetup]: https://www.meetup.com/berlinhug/events/232964889/
 [second-meetup]: http://www.meetup.com/berlinhug/events/233214002/
 [adel]: http://www.meetup.com/berlinhug/members/48993382/
@@ -60,3 +65,4 @@ each other.
 [liqd]: https://liqd.net/en/
 [wire]: https://wire.com/
 [blog2]: http://argumatronic.com/
+[follow]: https://github.com/pushcx/hpffp-resources
