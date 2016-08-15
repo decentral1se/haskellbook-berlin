@@ -59,6 +59,7 @@ Additional Resources
 
   * [Chapter follow-up resources][follow]
   * [Haskellbook Reddit][reddit]
+  * [Haskellbook-berlin Github repository][repo]
 
 [first-meetup]: https://www.meetup.com/berlinhug/events/232964889/
 [second-meetup]: http://www.meetup.com/berlinhug/events/233214002/
@@ -74,3 +75,4 @@ Additional Resources
 [blog2]: http://argumatronic.com/
 [follow]: https://github.com/pushcx/hpffp-resources
 [reddit]: https://www.reddit.com/r/HaskellBook/
+[repo]: https://github.com/lwm/haskellbook-berlin/
