@@ -4,7 +4,7 @@ title: Berlin Haskell Reading Group
 
 We're a group based in Berlin motivated to learn the
 [Haskell][haskell] programming language. Initially proposed by
-[Adel][adel], we plan to use the newly released ['Haskell Programming from first principles'][the-book] 
+[Adel][adel], we plan to use the newly released ['Haskell Programming from first principles'][the-book]
 as our learning material. The author comes highly recommended, please visit
 [his blog][blog] to find out more.
 
@@ -16,9 +16,15 @@ Dates
 -----
 
  * ~~2016-09-03: [Initial proposal][first-meetup]~~
+     * Location: [Liquid Democracy e.V. office][liqd]
  * 2016-09-17: [First meeting][second-meetup]
      * Proposed work load: Chapters 1 - 5
-     * Location: To Be Anounced
+         * All You Need is Lambda
+         * Hello, Haskell!
+         * Strings
+         * Basic Datatypes
+         * Types
+     * Location: [Wire office][wire]
 
 Guidelines
 ----
@@ -51,3 +57,5 @@ each other.
 [iss]: https://github.com/lwm/haskellbook-berlin/issues
 [sample]: http://haskellbook.com/images/sample.pdf
 [haskell]: https://www.haskell.org/
+[liqd]: https://liqd.net/en/
+[wire]: https://wire.com/
