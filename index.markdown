@@ -5,8 +5,8 @@ title: Berlin Haskell Reading Group
 We're a group based in Berlin motivated to learn the
 [Haskell][haskell] programming language. Initially proposed by
 [Adel][adel], we plan to use the newly released ['Haskell Programming from first principles'][the-book]
-as our learning material. The author comes highly recommended, please visit
-[his blog][blog] to find out more.
+as our learning material. The authors come highly recommended, please visit
+[Chris Allen's blog][blog] and [Julie Moronuki's blog][blog2] for more information.
 
 We are currently waiting on coupon codes for members of this group to purchase
 the book at a reasonable discount. In the mean time, you can check [the offical
@@ -59,3 +59,4 @@ each other.
 [haskell]: https://www.haskell.org/
 [liqd]: https://liqd.net/en/
 [wire]: https://wire.com/
+[blog2]: http://argumatronic.com/
