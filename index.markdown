@@ -26,6 +26,14 @@ Dates
          * Types
      * Location: [Wire office][wire]
 
+Join Us
+----
+Please introduce yourself via the [the meetup group][meetup-group]. Any skill
+level is welcome and you can join whenever you want. Please do attend, even
+when you didn't get the material covered. We can all still learn something from
+each other.
+
+
 Guidelines
 ----
 
@@ -41,17 +49,16 @@ Note the following:
   * As a fairly loose group, these guidelines may change.
   * There is no official organizer for this group. It's up to us!
 
-Join Us
-----
-Please introduce yourself via the [the meetup group][meetup-group]. Any skill
-level is welcome and you can join whenever you want. Please do attend, even
-when you didn't get the material covered. We can all still learn something from
-each other.
+When helping another person to solve a problem, please do the following:
+
+  * Don't simply reveal the answer to the problem, lead the person to it.
+  * Be helpful and try to cite sources or page numbers that can help the person.
 
 Additional Resources
 ----
 
   * [Chapter follow-up resources][follow]
+  * [Haskellbook Reddit][reddit]
 
 [first-meetup]: https://www.meetup.com/berlinhug/events/232964889/
 [second-meetup]: http://www.meetup.com/berlinhug/events/233214002/
@@ -66,3 +73,4 @@ Additional Resources
 [wire]: https://wire.com/
 [blog2]: http://argumatronic.com/
 [follow]: https://github.com/pushcx/hpffp-resources
+[reddit]: https://www.reddit.com/r/HaskellBook/
