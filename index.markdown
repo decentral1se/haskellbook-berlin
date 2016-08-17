@@ -15,9 +15,9 @@ sample][sample] to help you decide if you would like to make the purchase.
 Dates
 -----
 
- * ~~2016-09-03: [Initial proposal][first-meetup]~~
+ * ~~2016-08-03: [Initial proposal][first-meetup]~~
      * Location: [Liquid Democracy e.V. office][liqd]
- * 2016-09-17: [First meeting][second-meetup]
+ * 2016-08-17: [First meeting][second-meetup]
      * Proposed work load: Chapters 1 - 5
          * All You Need is Lambda
          * Hello, Haskell!
