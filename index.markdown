@@ -1,48 +1,46 @@
 ---
 title: Berlin Haskell Reading Group
 ---
+We're a group based in Berlin motivated to learn the [Haskell] programming
+language. Initially proposed by [Adel], we plan to use the newly released
+[Haskell Programming from first principles] as our learning material. The
+authors come highly recommended, please visit [Chris Allen's blog] and [Julie
+Moronuki's blog] for more information.
 
-We're a group based in Berlin motivated to learn the
-[Haskell][haskell] programming language. Initially proposed by
-[Adel][adel], we plan to use the newly released ['Haskell Programming from first principles'][the-book]
-as our learning material. The authors come highly recommended, please visit
-[Chris Allen's blog][blog] and [Julie Moronuki's blog][blog2] for more information.
-
-We are currently waiting on coupon codes for members of this group to purchase
-the book at a reasonable discount. In the mean time, you can check [the offical
-sample][sample] to help you decide if you would like to make the purchase.
+The authors of the book have kindly offered to give us a 50% discount on the
+price of the book. In order to decide if you want to make the purchase, please
+review [the official sample]. Please contact [Adel] if you'd like a copy of the
+book then.
 
 Dates
 -----
-
- * ~~2016-08-03: [Initial proposal][first-meetup]~~
-     * Location: [Liquid Democracy e.V. office][liqd]
- * 2016-08-17: [First meeting][second-meetup]
-     * Proposed work load: Chapters 1 - 5
-         * All You Need is Lambda
-         * Hello, Haskell!
-         * Strings
-         * Basic Datatypes
-         * Types
-     * Location: [Wire office][wire]
+ * 2016-08-03: [Meetup #1]
+     * Location: [Liquid Democracy e.V. office]
+ * 2016-08-17: [Meetup #2]
+     * Location: [Wire office]
+ * 2016-08-31: [Meetup #3]
+     * Location: [co.up coworking space]
+ * 2016-09-14: [Meetup #4]
+     * Location: [co.up coworking space]
+ * 2016-09-28: [Meetup #5]
+     * Location: [co.up coworking space]
 
 Join Us
-----
-Please introduce yourself via the [the meetup group][meetup-group]. Any skill
-level is welcome and you can join whenever you want. Please do attend, even
-when you didn't get the material covered. We can all still learn something from
-each other.
-
+--------
+Please introduce yourself via the [the meetup group]. Any skill level is
+welcome and you can join whenever you want. Please do attend, even when you
+didn't get the material covered. We can all still learn something from each
+other. If you are feeling social, we are officially using the `#BerlinHaskell`
+handle on Twitter.
 
 Guidelines
 ----
-
 The basic idea is as follows:
 
   * Secure a location and meet every 2 weeks
   * Find a willing Haskell mentor to help face to face
   * Propose a work load for the following meeting
-  * Use [our Github issues][iss] to get help between meetings
+  * Use [our Github issues] to get help between meetings
 
 Note the following:
 
@@ -56,23 +54,26 @@ When helping another person to solve a problem, please do the following:
 
 Additional Resources
 ----
+  * [Chapter follow-up resources]
+  * [Haskellbook Reddit]
+  * [Haskellbook-berlin Github repository]
 
-  * [Chapter follow-up resources][follow]
-  * [Haskellbook Reddit][reddit]
-  * [Haskellbook-berlin Github repository][repo]
-
-[first-meetup]: https://www.meetup.com/berlinhug/events/232964889/
-[second-meetup]: http://www.meetup.com/berlinhug/events/233214002/
-[adel]: http://www.meetup.com/berlinhug/members/48993382/
-[the-book]: http://haskellbook.com/
-[meetup-group]: http://www.meetup.com/berlinhug/
-[blog]: http://bitemyapp.com/
-[iss]: https://github.com/lwm/haskellbook-berlin/issues
-[sample]: http://haskellbook.com/images/sample.pdf
-[haskell]: https://www.haskell.org/
-[liqd]: https://liqd.net/en/
-[wire]: https://wire.com/
-[blog2]: http://argumatronic.com/
-[follow]: https://github.com/pushcx/hpffp-resources
-[reddit]: https://www.reddit.com/r/HaskellBook/
-[repo]: https://github.com/lwm/haskellbook-berlin/
+[Adel]: http://www.meetup.com/berlinhug/members/48993382/
+[Haskell Programming from first principles]: http://haskellbook.com/
+[the meetup group]: http://www.meetup.com/berlinhug/
+[Chris Allen's blog]: http://bitemyapp.com/
+[our Github issues]: https://github.com/lwm/haskellbook-berlin/issues
+[the official sample]: http://haskellbook.com/images/sample.pdf
+[Haskell]: https://www.haskell.org/
+[Liquid Democracy e.V. office]: https://liqd.net/en/
+[Wire office]: https://wire.com/
+[Julie Moronuki's blog]: http://argumatronic.com/
+[Chapter follow-up resources]: https://github.com/pushcx/hpffp-resources
+[Haskellbook Reddit]: https://www.reddit.com/r/HaskellBook/
+[Haskellbook-berlin Github repository]: https://github.com/lwm/haskellbook-berlin/
+[co.up coworking space]: http://co-up.de/about.html
+[Meetup #1]: https://www.meetup.com/berlinhug/events/232964889/
+[Meetup #2]: http://www.meetup.com/berlinhug/events/233214002/
+[Meetup #3]: https://www.meetup.com/berlinhug/events/233647346/
+[Meetup #4]: https://www.meetup.com/berlinhug/events/234087249/
+[Meetup #5]: https://www.meetup.com/berlinhug/events/234087579/
