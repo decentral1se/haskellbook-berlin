@@ -63,7 +63,7 @@ Additional Resources
 [the meetup group]: http://www.meetup.com/berlinhug/
 [Chris Allen's blog]: http://bitemyapp.com/
 [our Github issues]: https://github.com/lwm/haskellbook-berlin/issues
-[the official sample]: http://haskellbook.com/images/sample.pdf
+[the official sample]: http://haskellbook.com/assets/img/sample.pdf
 [Haskell]: https://www.haskell.org/
 [Liquid Democracy e.V. office]: https://liqd.net/en/
 [Wire office]: https://wire.com/
