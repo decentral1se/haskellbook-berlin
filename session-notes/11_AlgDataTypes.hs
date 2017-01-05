@@ -69,3 +69,62 @@ data CarCheck = Check (CarManufacturer -> Bool)
 data CarCheck' = Check' Bool Bool Bool
 -- think of it as a boolean result for each of the 3 possible CarManufacturers
 
+
+
+-- BINARY TREES
+
+-- reminder:
+data List a = Nil | Cons a (List a)
+
+-- [1,2,3] looks like this:
+--
+--   :
+--  / \
+-- 1   :
+--    / \
+--   2   :
+--      / \
+--     3   []
+
+
+-- a binary tree looks like this (L for leaf):
+--
+--            2
+--           / \
+--          /   \
+--         1     5
+--        / \   / \
+--       0   L L   L
+--      / \
+--     L   L
+
+-- instead of one sublist, a Node has two subtrees
+data Tree a = Leaf | Node (Tree a) a (Tree a)
+
+-- if we wanted to create our own Show instance:
+instance Show a => Show (Tree a) where
+    show = undefined -- TODO: add implementation
+
+
+exampleTree =
+    Node
+        (Node
+            (Node
+                Leaf
+                0
+                Leaf)
+            1
+            Leaf)
+        2
+        (Node
+            Leaf
+            5
+            Leaf)
+
+
+-- typeclasses can have default implementations for their functions:
+--class Eq a where
+    --(==), (/=) :: a -> a -> Bool
+    --a == b = not (a /= b)
+    --a /= b = not (a == b)
+
