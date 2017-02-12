@@ -1,0 +1,33 @@
+mheinzel@mh-tp-ubu:~/projects/haskellbook-berlin/session-notes/Marathon/gloss-demo$ stack repl
+gloss-demo-0.1.0.0: configure (lib + exe)
+Configuring gloss-demo-0.1.0.0...
+gloss-demo-0.1.0.0: initial-build-steps (lib + exe)
+Configuring GHCi with the following packages: gloss-demo
+Using main module: 1. Package `gloss-demo' component exe:gloss-demo-exe with main-is file: /home/shared/projects/haskellbook-berlin/session-notes/Marathon/gloss-demo/app/Main.hs
+GHCi, version 8.0.2: http://www.haskell.org/ghc/  :? for help
+[1 of 1] Compiling Lib              ( /home/shared/projects/haskellbook-berlin/session-notes/Marathon/gloss-demo/src/Lib.hs, interpreted )
+Ok, modules loaded: Lib.
+[2 of 2] Compiling Main             ( /home/shared/projects/haskellbook-berlin/session-notes/Marathon/gloss-demo/app/Main.hs, interpreted )
+Ok, modules loaded: Lib, Main.
+Loaded GHCi configuration from /tmp/ghci10787/ghci-script
+*Main Lib> import Graphics.Gloss
+*Main Lib Graphics.Gloss> let disp = InWindow "test" (480,320) (0,0)
+*Main Lib Graphics.Gloss> :t disp
+disp :: Display
+*Main Lib Graphics.Gloss> display disp red (text "Hello World")
+*Main Lib Graphics.Gloss>
+*Main Lib Graphics.Gloss> animate disp red circle
+*Main Lib Graphics.Gloss>
+*Main Lib Graphics.Gloss> let initState = 0
+*Main Lib Graphics.Gloss> let toPicture = text . show
+*Main Lib Graphics.Gloss> let updateTime _ st = st
+*Main Lib Graphics.Gloss>
+*Main Lib Graphics.Gloss> import Graphics.Gloss.Interface.IO.Game
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game> :{
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game| updateEvent (EventKey (SpecialKey KeyUp) Down _ _) c = c + 1
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game| updateEvent (EventKey (SpecialKey KeyDown) Down _ _) c = c - 1
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game| updateEvent _ c = c
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game| :}
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game> :t updateEvent
+updateEvent :: Num a => Event -> a -> a
+*Main Lib Graphics.Gloss Graphics.Gloss.Interface.IO.Game> play disp (dark red) 30 initState toPicture updateEvent updateTime
